@@ -1,133 +1,241 @@
-body{
-    background:#f3f5f9;
-    font-family:'Poppins',sans-serif;
-}
-
 /* ===========================
    CONTAINER
 =========================== */
 
 .perfil-modelo{
+
     max-width:1300px;
+
     margin:auto;
+
     padding:50px 20px;
+
 }
+
+
 
 /* ===========================
    BANNER
 =========================== */
 
 .perfil-banner{
+
     height:600px;
+
     overflow:hidden;
+
     border-radius:35px;
+
     position:relative;
+
     box-shadow:
-        0 25px 60px rgba(0,0,0,.20);
+    0 25px 60px rgba(0,0,0,.20);
+
 }
+
+
 
 .perfil-banner img{
+
     width:100%;
+
     height:100%;
+
     object-fit:cover;
+
     transition:.8s;
+
 }
+
+
 
 .perfil-banner:hover img{
+
     transform:scale(1.08);
+
 }
 
+
+
 .perfil-banner::after{
+
     content:"";
+
     position:absolute;
+
     inset:0;
-    background:linear-gradient(
+
+    background:
+    linear-gradient(
         to bottom,
         rgba(0,0,0,.05),
-        rgba(0,0,0,.55)
+        rgba(0,0,0,.60)
     );
+
 }
+
+
 
 /* ===========================
    CARD
 =========================== */
 
+
 .perfil-card{
 
-    width:92%;
+
+    width:90%;
+
     margin:-120px auto 0;
+
+
     position:relative;
+
     z-index:5;
 
+
     display:flex;
-    gap:50px;
+
     align-items:center;
+
+
+    gap:50px;
+
 
     padding:45px;
 
+
     border-radius:30px;
 
-    background:rgba(255,255,255,.75);
+
+    background:
+    rgba(255,255,255,.75);
+
 
     backdrop-filter:blur(20px);
 
-    border:1px solid rgba(255,255,255,.45);
+
+    border:
+    1px solid rgba(255,255,255,.45);
+
+
 
     box-shadow:
-        0 20px 60px rgba(0,0,0,.18);
+    0 20px 60px rgba(0,0,0,.18);
+
 
 }
+
+
 
 /* ===========================
    FOTO
 =========================== */
 
+
+.perfil-foto{
+
+
+    flex-shrink:0;
+
+
+}
+
+
+
 .perfil-foto img{
 
+
     width:260px;
+
     height:260px;
+
 
     border-radius:50%;
 
+
     object-fit:cover;
 
-    border:8px solid #fff;
+
+    border:
+
+    8px solid #fff;
+
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,.25);
+
 
     transition:.4s;
 
-    box-shadow:
-        0 15px 40px rgba(0,0,0,.20);
 
 }
+
+
 
 .perfil-foto img:hover{
 
-    transform:scale(1.05) rotate(2deg);
+
+    transform:
+    scale(1.05)
+    rotate(2deg);
+
 
 }
 
+
+
 /* ===========================
-   TEXTO
+   INFORMAÇÕES
 =========================== */
+
+
+.perfil-info{
+
+
+    flex:1;
+
+}
+
+
 
 .perfil-info h1{
 
-    font-size:46px;
-    font-weight:700;
+
+    font-size:
+
+    clamp(32px,5vw,46px);
+
+
+    font-weight:800;
+
 
     color:#222;
 
-    margin-bottom:20px;
+
+    margin:0 0 20px;
+
 
 }
+
+
 
 .perfil-info p{
 
+
     font-size:18px;
+
+
     color:#666;
+
+
     margin:12px 0;
 
+
 }
+
+
 
 .perfil-info strong{
 
@@ -135,54 +243,341 @@ body{
 
 }
 
-.descricao{
 
-    margin-top:25px;
-    line-height:1.9;
-    color:#555;
+
+/* TAGS */
+
+
+.perfil-dados{
+
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:15px;
+
 
 }
+
+
+
+.perfil-dados span{
+
+
+    padding:
+
+    8px 18px;
+
+
+    border-radius:30px;
+
+
+    background:#f1f5f9;
+
+
+    color:#334155;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+/* DESCRIÇÃO */
+
+
+.descricao{
+
+
+    margin-top:25px;
+
+
+    line-height:1.8;
+
+
+    color:#64748b;
+
+
+}
+
+
 
 /* ===========================
    BOTÃO
 =========================== */
 
+
 .btn-voltar{
 
+
     display:inline-flex;
+
+
     align-items:center;
+
     justify-content:center;
+
 
     margin-top:30px;
 
+
     padding:15px 40px;
+
 
     border-radius:40px;
 
+
     text-decoration:none;
+
 
     font-weight:600;
 
-    color:#fff;
 
-    background:linear-gradient(
+    color:white;
+
+
+    background:
+    linear-gradient(
         135deg,
         #ff4d6d,
         #7b2ff7
     );
 
+
     transition:.35s;
 
+
     box-shadow:
-        0 10px 30px rgba(123,47,247,.35);
+
+    0 10px 30px rgba(123,47,247,.35);
+
 
 }
 
+
+
 .btn-voltar:hover{
 
-    transform:translateY(-5px);
 
-    box-shadow:
-        0 20px 40px rgba(123,47,247,.45);
+    transform:
+
+    translateY(-5px);
+
+
+}
+
+
+
+/* ===========================
+   TABLET
+=========================== */
+
+
+@media(max-width:1000px){
+
+
+    .perfil-banner{
+
+
+        height:450px;
+
+    }
+
+
+
+    .perfil-card{
+
+
+        width:94%;
+
+
+        gap:30px;
+
+
+        padding:35px;
+
+
+    }
+
+
+
+    .perfil-foto img{
+
+
+        width:200px;
+
+        height:200px;
+
+
+    }
+
+
+
+}
+
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+
+@media(max-width:700px){
+
+
+    .perfil-modelo{
+
+
+        padding:30px 15px;
+
+    }
+
+
+
+    .perfil-banner{
+
+
+        height:350px;
+
+
+        border-radius:25px;
+
+
+    }
+
+
+
+    .perfil-card{
+
+
+        width:100%;
+
+
+        margin:-70px auto 0;
+
+
+        padding:40px 25px;
+
+
+        flex-direction:column;
+
+
+        text-align:center;
+
+
+        gap:20px;
+
+
+    }
+
+
+
+    .perfil-foto img{
+
+
+        width:150px;
+
+        height:150px;
+
+
+        border-width:6px;
+
+
+    }
+
+
+
+    .perfil-info h1{
+
+
+        font-size:32px;
+
+
+    }
+
+
+
+    .perfil-info p{
+
+
+        font-size:16px;
+
+
+    }
+
+
+
+    .perfil-dados{
+
+
+        justify-content:center;
+
+    }
+
+
+
+    .btn-voltar{
+
+
+        width:100%;
+
+
+    }
+
+
+}
+
+
+
+/* ===========================
+   CELULAR PEQUENO
+=========================== */
+
+
+@media(max-width:400px){
+
+
+    .perfil-banner{
+
+
+        height:280px;
+
+    }
+
+
+
+    .perfil-card{
+
+
+        padding:35px 18px;
+
+    }
+
+
+
+    .perfil-foto img{
+
+
+        width:120px;
+
+        height:120px;
+
+
+    }
+
+
+
+    .perfil-info h1{
+
+
+        font-size:27px;
+
+    }
+
 
 }
