@@ -1,0 +1,29 @@
+<section id="modelos" class="modelos-section">
+
+    <h2>Modelos</h2>
+
+    <div class="cards">
+
+        {% for modelo in modelos %}
+
+       <div class="card">
+
+    <a class="perfil-link" href="{{ url_for('home.perfil', id=modelo.id) }}">
+        <div class="foto-modelo">
+            <img src="{{ modelo.fotoPerfil }}" alt="{{ modelo.nome }}">
+        </div>
+
+        <h3>{{ modelo.nome }}</h3>
+    </a>
+
+    <a class="btn-perfil" href="{{ url_for('home.perfil', id=modelo.id) }}">
+        Ver perfil
+    </a>
+
+</div>
+
+        {% endfor %}
+
+    </div>
+
+</section>

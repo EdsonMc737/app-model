@@ -2,9 +2,10 @@
 @import url(components/navmenu.css);
 @import url(components/footer.css);
 @import url(components/banner.css);
-@import url(components/carrocel_card.css);
+@import url(components/coverflow.css);
 @import url(components/modelos.css);
 @import url(components/perfil_modelo.css);
+@import url(components/cards_perfil.css);
 
 :root{
 

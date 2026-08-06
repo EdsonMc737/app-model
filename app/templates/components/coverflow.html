@@ -1,0 +1,52 @@
+<section class="projetor-galeria">
+
+    <h2>Destaques</h2>
+
+    <div class="coverflow">
+
+        <button class="coverflow-btn esquerda">&#10094;</button>
+
+        <div class="coverflow-container">
+
+            <div class="coverflow-track">
+
+                {% for modelo in modelos[:12] %}
+
+                <div class="coverflow-card">
+
+                    <a href="{{ url_for('home.perfil', id=modelo.id) }}">
+
+                        <img 
+                            src="{{ modelo.banner }}"
+                            alt="{{ modelo.nome }}">
+
+                        <div class="coverflow-info">
+
+                            <h3>
+                                {{ modelo.nome.split()[0] }}
+                            </h3>
+
+                            <span>
+                                {{ modelo.signo }}
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <button class="coverflow-btn direita">&#10095;</button>
+
+    </div>
+
+</section>
+
+
+<script src="{{ url_for('static', filename='js/components/coverflow.js') }}"></script>
