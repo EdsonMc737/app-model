@@ -36,20 +36,21 @@
 
         {% for modelo in modelos %}
 
-        <div class="card">
+       <div class="card">
 
-            <div class="foto-modelo">
-                <img src="{{ modelo.fotoPerfil }}"
-                     alt="{{ modelo.nome }}">
-            </div>
-
-            <h3>{{ modelo.nome }}</h3>
-
-            <a href="{{ url_for('home.perfil', id=modelo.id) }}">
-                Ver perfil
-            </a>
-
+    <a class="perfil-link" href="{{ url_for('home.perfil', id=modelo.id) }}">
+        <div class="foto-modelo">
+            <img src="{{ modelo.fotoPerfil }}" alt="{{ modelo.nome }}">
         </div>
+
+        <h3>{{ modelo.nome }}</h3>
+    </a>
+
+    <a class="btn-perfil" href="{{ url_for('home.perfil', id=modelo.id) }}">
+        Ver perfil
+    </a>
+
+</div>
 
         {% endfor %}
 

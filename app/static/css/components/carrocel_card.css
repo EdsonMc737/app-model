@@ -358,7 +358,7 @@
    BOTÃO
 ====================================== */
 
-.card a{
+..card a{
 
     display:inline-flex;
 
@@ -391,6 +391,8 @@
     transform:translateY(-2px);
 
 }
+
+
 
 /* =====================================
    RESPONSIVO
