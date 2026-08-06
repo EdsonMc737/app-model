@@ -1,0 +1,498 @@
+/* =====================================
+   COVERFLOW GALERIA
+===================================== */
+
+.projetor-galeria{
+
+    padding:90px 20px;
+    background:#f6f7fb;
+
+}
+
+
+.projetor-galeria h2{
+
+    text-align:center;
+    font-size:clamp(30px,4vw,46px);
+    font-weight:800;
+    color:#1d1d1f;
+    margin-bottom:50px;
+
+}
+
+
+
+/* =====================================
+   CONTAINER
+===================================== */
+
+.coverflow{
+
+    position:relative;
+
+    max-width:1400px;
+
+    height:600px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    perspective:1200px;
+
+}
+
+
+
+.coverflow-container{
+
+    width:100%;
+
+    height:100%;
+
+    overflow:visible;
+
+}
+
+
+
+.coverflow-track{
+
+    position:relative;
+
+    width:100%;
+
+    height:100%;
+
+}
+
+
+
+/* =====================================
+   CARD
+===================================== */
+
+.coverflow-card{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+
+    width:360px;
+
+    height:520px;
+
+
+    transform:
+    translate(-50%,-50%)
+    scale(.75);
+
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    background:#fff;
+
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.25);
+
+
+    transition:
+    transform .6s cubic-bezier(.22,.61,.36,1),
+    opacity .6s ease,
+    filter .6s ease;
+
+
+    opacity:.45;
+
+    filter:
+    brightness(.65)
+    blur(1px);
+
+
+    transform-style:preserve-3d;
+
+}
+
+
+
+/* IMAGEM */
+
+.coverflow-card img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
+
+/* =====================================
+   CARD CENTRAL
+===================================== */
+
+
+.coverflow-card.center{
+
+    transform:
+    translate(-50%,-50%)
+    scale(1);
+
+
+    opacity:1;
+
+    filter:none;
+
+    z-index:10;
+
+
+    animation:
+    destaque .45s ease;
+
+}
+
+
+
+/* =====================================
+   CARD ESQUERDA
+===================================== */
+
+
+.coverflow-card.left{
+
+    transform:
+    translate(calc(-50% - 270px),-50%)
+    scale(.78)
+    rotateY(30deg);
+
+
+    z-index:5;
+
+}
+
+
+
+/* =====================================
+   CARD DIREITA
+===================================== */
+
+
+.coverflow-card.right{
+
+
+    transform:
+    translate(calc(-50% + 270px),-50%)
+    scale(.78)
+    rotateY(-30deg);
+
+
+    z-index:5;
+
+}
+
+
+
+/* ESCONDIDOS */
+
+.coverflow-card.hidden{
+
+
+    opacity:0;
+
+
+    transform:
+    translate(-50%,-50%)
+    scale(.5);
+
+
+    pointer-events:none;
+
+}
+
+
+
+/* =====================================
+   INFORMAÇÕES
+===================================== */
+
+
+.coverflow-info{
+
+    position:absolute;
+
+    bottom:25px;
+
+    left:25px;
+
+    color:white;
+
+    z-index:20;
+
+
+    text-shadow:
+    0 5px 20px rgba(0,0,0,.8);
+
+}
+
+
+
+.coverflow-info h3{
+
+
+    margin:0;
+
+    font-size:36px;
+
+    font-weight:800;
+
+}
+
+
+
+.coverflow-info span{
+
+
+    display:inline-block;
+
+    margin-top:8px;
+
+    padding:7px 18px;
+
+
+    border-radius:30px;
+
+
+    background:
+    rgba(255,255,255,.18);
+
+
+    backdrop-filter:
+    blur(12px);
+
+
+    font-size:15px;
+
+}
+
+
+
+/* =====================================
+   BOTÕES
+===================================== */
+
+
+.coverflow-btn{
+
+
+    position:absolute;
+
+
+    top:50%;
+
+
+    transform:
+    translateY(-50%);
+
+
+    width:55px;
+
+    height:55px;
+
+
+    border:none;
+
+
+    border-radius:50%;
+
+
+    background:#111827;
+
+
+    color:#fff;
+
+
+    font-size:28px;
+
+
+    cursor:pointer;
+
+
+    z-index:30;
+
+
+    transition:.3s;
+
+}
+
+
+
+.coverflow-btn:hover{
+
+
+    background:#5b6cff;
+
+
+    transform:
+    translateY(-50%)
+    scale(1.1);
+
+}
+
+
+
+.coverflow-btn.esquerda{
+
+    left:15px;
+
+}
+
+
+
+.coverflow-btn.direita{
+
+    right:15px;
+
+}
+
+
+
+/* =====================================
+   ANIMAÇÃO
+===================================== */
+
+
+@keyframes destaque{
+
+
+    from{
+
+        transform:
+        translate(-50%,-50%)
+        scale(.92);
+
+    }
+
+
+    to{
+
+        transform:
+        translate(-50%,-50%)
+        scale(1);
+
+    }
+
+}
+
+
+
+/* =====================================
+   RESPONSIVO
+===================================== */
+
+
+@media(max-width:900px){
+
+
+    .coverflow{
+
+        height:500px;
+
+    }
+
+
+
+    .coverflow-card{
+
+
+        width:280px;
+
+        height:420px;
+
+    }
+
+
+
+    .coverflow-card.left{
+
+        transform:
+        translate(calc(-50% - 150px),-50%)
+        scale(.7)
+        rotateY(25deg);
+
+    }
+
+
+
+    .coverflow-card.right{
+
+
+        transform:
+        translate(calc(-50% + 150px),-50%)
+        scale(.7)
+        rotateY(-25deg);
+
+    }
+
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .coverflow{
+
+        height:430px;
+
+    }
+
+
+    .coverflow-card{
+
+
+        width:250px;
+
+        height:360px;
+
+    }
+
+
+
+    .coverflow-card.left,
+    .coverflow-card.right{
+
+
+        opacity:.2;
+
+    }
+
+
+
+    .coverflow-btn{
+
+
+        width:45px;
+
+        height:45px;
+
+        font-size:22px;
+
+    }
+
+
+
+}
