@@ -6,10 +6,17 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/AbellaDanger/Ensaio01/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto1.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto2.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto3.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto4.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto5.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto6.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto7.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto8.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio01/foto9.webp"
       ]
     },
     {
@@ -18,10 +25,21 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":   "/static/img/modelos/AbellaDanger/Ensaio02/foto8.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto1.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto10.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto11.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto12.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto13.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto2.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto3.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto4.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto5.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto6.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto7.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto8.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio02/foto9.webp"
       ]
     },
     {
@@ -30,10 +48,17 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa": "/static/img/modelos/AbellaDanger/Ensaio03/foto5.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto1.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto2.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto3.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto4.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto5.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto6.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto7.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto8.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio03/foto9.webp"
       ]
     },
     {
@@ -42,11 +67,19 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa": "/static/img/modelos/AbellaDanger/Ensaio10/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+        "/static/img/modelos/AbellaDanger/Ensaio10/foto1.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto10.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto11.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto12.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto13.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto14.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto15.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto16.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto17.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto18.webp",
+            "/static/img/modelos/AbellaDanger/Ensaio10/foto19.webp"
       ]
     },
     {
@@ -55,10 +88,20 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/Aleksandrina/Ensaio01/foto22.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+        "/static/img/modelos/Aleksandrina/Ensaio01/foto1.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto17.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto18.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto19.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto2.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto20.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto21.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto22.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto23.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto24.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto25.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio01/foto26.webp"
       ]
     },
     {
@@ -67,10 +110,24 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa": "/static/img/modelos/Aleksandrina/Ensaio02/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto1.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto10.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto11.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto12.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto13.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto14.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto15.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto16.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto17.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto18.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto19.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto2.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto20.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto21.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto22.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio02/foto23.webp"
       ]
     },
     {
@@ -79,10 +136,29 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa": "/static/img/modelos/Aleksandrina/Ensaio03/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+         "/static/img/modelos/Aleksandrina/Ensaio03/foto1.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto10.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto11.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto12.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto13.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto14.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto15.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto16.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto17.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto18.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto19.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto2.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto20.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto21.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto22.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto23.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto24.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto25.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto26.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto27.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio03/foto28.webp"
       ]
     },
     {
@@ -91,11 +167,23 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa":  "/static/img/modelos/Aleksandrina/Ensaio07/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto1.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto10.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto11.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto12.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto13.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto14.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto15.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto16.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto17.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto18.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto19.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto2.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto20.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto21.webp",
+            "/static/img/modelos/Aleksandrina/Ensaio07/foto22.webp"
       ]
     },
     {
@@ -104,10 +192,28 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/AlexGrey/Ensaio01/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/AlexGrey/Ensaio01/foto10.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto11.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto12.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto13.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto14.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto15.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto16.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto17.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto18.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto19.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto20.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto21.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto22.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto23.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto24.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto25.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto26.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto27.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto28.webp",
+            "/static/img/modelos/AlexGrey/Ensaio01/foto29.webp"
       ]
     },
     {
@@ -116,10 +222,14 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":  "/static/img/modelos/AlexGrey/Ensaio02/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/AlexGrey/Ensaio02/foto1.webp",
+            "/static/img/modelos/AlexGrey/Ensaio02/foto13.webp",
+            "/static/img/modelos/AlexGrey/Ensaio02/foto3.webp",
+            "/static/img/modelos/AlexGrey/Ensaio02/foto4.webp",
+            "/static/img/modelos/AlexGrey/Ensaio02/foto5.webp",
+            "/static/img/modelos/AlexGrey/Ensaio02/foto6.webp"
       ]
     },
     {
@@ -128,10 +238,16 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/AlexGrey/Ensaio03/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/AlexGrey/Ensaio03/foto1.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto2.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto3.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto4.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto5.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto6.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto7.webp",
+            "/static/img/modelos/AlexGrey/Ensaio03/foto8.webp"
       ]
     },
     {
@@ -140,11 +256,18 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa": "/static/img/modelos/AlexGrey/Ensaio05/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+            "/static/img/modelos/AlexGrey/Ensaio05/foto1.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto10.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto11.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto12.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto13.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto14.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto15.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto16.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto17.webp",
+            "/static/img/modelos/AlexGrey/Ensaio05/foto18.webp"
       ]
     },
     {
@@ -153,10 +276,27 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/LanaRhoades/ensaio1/foto12.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+        "/static/img/modelos/LanaRhoades/ensaio1/foto1.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto10.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto11.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto12.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto13.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto14.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto15.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto16.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto17.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto18.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto19.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto20.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto21.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto22.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto23.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto24.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto25.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto26.webp",
+            "/static/img/modelos/LanaRhoades/ensaio1/foto27.webp"
       ]
     },
     {
@@ -165,10 +305,21 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":  "/static/img/modelos/LanaRhoades/ensaio2/foto21.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+           "/static/img/modelos/LanaRhoades/ensaio2/foto1.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto10.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto11.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto12.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto13.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto14.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto15.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto16.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto17.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto18.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto19.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto20.webp",
+            "/static/img/modelos/LanaRhoades/ensaio2/foto21.webp"
       ]
     },
     {
@@ -177,10 +328,24 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/LanaRhoades/Ensaio10/foto4.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+         "/static/img/modelos/LanaRhoades/Ensaio10/foto1.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto10.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto11.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto12.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto13.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto14.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto15.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto16.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto2.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto3.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto4.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto5.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto6.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto7.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto8.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio10/foto9.webp"
       ]
     },
     {
@@ -189,11 +354,24 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa":  "/static/img/modelos/LanaRhoades/Ensaio06/foto7.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+       "/static/img/modelos/LanaRhoades/Ensaio06/foto1.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto10.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto11.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto12.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto13.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto14.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto15.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto16.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto2.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto3.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto4.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto5.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto6.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto7.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto8.webp",
+            "/static/img/modelos/LanaRhoades/Ensaio06/foto9.webp"
       ]
     },
     {
@@ -202,10 +380,32 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa":  "/static/img/modelos/LeahGotti/Ensaio10/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/LeahGotti/Ensaio10/foto1.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto10.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto11.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto12.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto13.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto14.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto15.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto16.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto17.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto18.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto19.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto2.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto20.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto21.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto22.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto23.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto24.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto3.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto4.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto5.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto6.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto7.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto8.webp",
+            "/static/img/modelos/LeahGotti/Ensaio10/foto9.webp"
       ]
     },
     {
@@ -214,10 +414,37 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa": "/static/img/modelos/LeahGotti/Ensaio08/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+           "/static/img/modelos/LeahGotti/Ensaio08/foto1.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto10.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto11.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto12.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto13.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto14.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto15.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto16.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto17.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto18.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto19.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto2.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto20.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto21.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto22.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto23.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto24.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto25.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto26.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto27.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto28.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto29.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto3.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto4.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto5.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto6.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto7.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto8.webp",
+            "/static/img/modelos/LeahGotti/Ensaio08/foto9.webp"
       ]
     },
     {
@@ -226,10 +453,23 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa": "/static/img/modelos/LeahGotti/Ensaio09/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/LeahGotti/Ensaio09/foto1.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto10.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto11.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto12.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto13.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto14.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto15.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto2.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto3.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto4.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto5.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto6.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto7.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto8.webp",
+            "/static/img/modelos/LeahGotti/Ensaio09/foto9.webp"
       ]
     },
     {
@@ -238,11 +478,30 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa":  "/static/img/modelos/LeahGotti/Ensaio06/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+        "/static/img/modelos/LeahGotti/Ensaio06/foto1.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto10.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto11.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto12.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto13.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto14.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto15.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto16.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto17.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto18.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto19.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto2.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto20.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto21.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto22.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto3.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto4.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto5.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto6.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto7.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto8.webp",
+            "/static/img/modelos/LeahGotti/Ensaio06/foto9.webp"
       ]
     },
     {
@@ -251,10 +510,16 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/LenaPaul/Ensaio03/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+           "/static/img/modelos/LenaPaul/Ensaio03/foto1.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto10.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto11.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto12.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto13.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto14.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto15.webp",
+            "/static/img/modelos/LenaPaul/Ensaio03/foto16.webp"
       ]
     },
     {
@@ -263,10 +528,24 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":  "/static/img/modelos/LenaPaul/Ensaio04/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/LenaPaul/Ensaio04/foto1.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto10.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto11.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto12.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto13.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto14.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto15.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto16.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto2.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto3.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto4.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto5.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto6.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto7.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto8.webp",
+            "/static/img/modelos/LenaPaul/Ensaio04/foto9.webp"
       ]
     },
     {
@@ -275,10 +554,27 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/LenaPaul/Ensaio05/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/LenaPaul/Ensaio05/foto1.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto10.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto11.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto12.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto13.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto14.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto15.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto16.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto17.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto18.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto19.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto2.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto3.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto4.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto5.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto6.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto7.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto8.webp",
+            "/static/img/modelos/LenaPaul/Ensaio05/foto9.webp"
       ]
     },
     {
@@ -287,11 +583,14 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa": "/static/img/modelos/LenaPaul/Ensaio02/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+       "/static/img/modelos/LenaPaul/Ensaio02/foto10.webp",
+            "/static/img/modelos/LenaPaul/Ensaio02/foto11.webp",
+            "/static/img/modelos/LenaPaul/Ensaio02/foto12.webp",
+            "/static/img/modelos/LenaPaul/Ensaio02/foto13.webp",
+            "/static/img/modelos/LenaPaul/Ensaio02/foto14.webp",
+            "/static/img/modelos/LenaPaul/Ensaio02/foto15.webp"
       ]
     },
     {
@@ -300,10 +599,17 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa":  "/static/img/modelos/MilaEx/ensaio1/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/MilaEx/ensaio1/foto1.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto10.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto11.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto12.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto13.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto14.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto15.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto16.webp",
+            "/static/img/modelos/MilaEx/ensaio1/foto17.webp"
       ]
     },
     {
@@ -312,10 +618,20 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":  "/static/img/modelos/MilaEx/ensaio2/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/MilaEx/ensaio2/foto1.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto10.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto11.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto12.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto13.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto14.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto15.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto16.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto17.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto18.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto19.webp",
+            "/static/img/modelos/MilaEx/ensaio2/foto20.webp"
       ]
     },
     {
@@ -324,10 +640,19 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/MilaEx/ensaio3/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/MilaEx/ensaio3/foto1.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto10.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto11.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto12.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto13.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto14.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto15.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto16.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto17.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto18.webp",
+            "/static/img/modelos/MilaEx/ensaio3/foto19.webp"
       ]
     },
     {
@@ -336,11 +661,21 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa": "/static/img/modelos/MilaEx/ensaio4/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+        "/static/img/modelos/MilaEx/ensaio4/foto10.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto11.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto12.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto13.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto14.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto15.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto16.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto17.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto18.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto19.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto20.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto21.webp",
+            "/static/img/modelos/MilaEx/ensaio4/foto22.webp"
       ]
     },
     {
@@ -349,10 +684,26 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/NancyA/Ensaio01/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/NancyA/Ensaio01/foto1.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto10.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto11.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto12.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto13.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto14.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto15.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto16.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto17.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto18.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto19.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto2.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto20.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto21.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto22.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto23.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto24.webp",
+            "/static/img/modelos/NancyA/Ensaio01/foto25.webp"
       ]
     },
     {
@@ -361,10 +712,22 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa": "/static/img/modelos/NancyA/Ensaio02/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/NancyA/Ensaio02/foto1.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto10.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto11.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto12.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto13.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto14.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto15.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto16.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto17.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto18.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto19.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto2.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto20.webp",
+            "/static/img/modelos/NancyA/Ensaio02/foto21.webp"
       ]
     },
     {
@@ -373,10 +736,20 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/NancyA/Ensaio03/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/NancyA/Ensaio03/foto1.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto10.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto11.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto12.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto13.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto14.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto15.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto16.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto17.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto18.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto19.webp",
+            "/static/img/modelos/NancyA/Ensaio03/foto2.webp"
       ]
     },
     {
@@ -385,11 +758,23 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa":  "/static/img/modelos/NancyA/Ensaio04/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+            "/static/img/modelos/NancyA/Ensaio04/foto1.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto10.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto11.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto12.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto13.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto14.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto15.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto2.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto3.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto4.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto5.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto6.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto7.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto8.webp",
+            "/static/img/modelos/NancyA/Ensaio04/foto9.webp"
       ]
     },
     {
@@ -398,10 +783,19 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa":  "/static/img/modelos/NicoleAniston/Ensaio01/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+        "/static/img/modelos/NicoleAniston/Ensaio01/foto1.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto10.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto11.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto12.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto13.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto14.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto15.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto16.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto17.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto18.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio01/foto19.webp"
       ]
     },
     {
@@ -410,10 +804,13 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":  "/static/img/modelos/NicoleAniston/Ensaio02/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/NicoleAniston/Ensaio02/foto1.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio02/foto10.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio02/foto11.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio02/foto12.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio02/foto13.webp"
       ]
     },
     {
@@ -422,10 +819,16 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/NicoleAniston/Ensaio07/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto1.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto10.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto11.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto12.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto13.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto14.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto15.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio07/foto16.webp"
       ]
     },
     {
@@ -434,11 +837,17 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa": "/static/img/modelos/NicoleAniston/Ensaio08/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto1.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto10.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto11.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto12.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto13.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto14.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto15.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto16.webp",
+            "/static/img/modelos/NicoleAniston/Ensaio08/foto17.webp"
       ]
     },
     {
@@ -447,10 +856,21 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa":  "/static/img/modelos/Niemira/Ensaio02/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/Niemira/Ensaio02/foto1.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto10.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto11.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto12.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto13.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto14.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto15.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto16.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto17.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto18.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto19.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto2.webp",
+            "/static/img/modelos/Niemira/Ensaio02/foto20.webp"
       ]
     },
     {
@@ -459,10 +879,24 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa":  "/static/img/modelos/Niemira/Ensaio01/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+            "/static/img/modelos/Niemira/Ensaio01/foto1.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto10.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto11.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto12.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto13.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto14.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto15.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto16.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto17.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto18.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto19.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto2.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto20.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto21.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto22.webp",
+            "/static/img/modelos/Niemira/Ensaio01/foto23.webp"
       ]
     },
     {
@@ -471,10 +905,25 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/Niemira/Ensaio03/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+         "/static/img/modelos/Niemira/Ensaio03/foto10.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto11.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto12.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto13.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto14.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto15.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto16.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto17.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto18.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto19.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto2.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto20.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto21.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto22.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto23.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto24.webp",
+            "/static/img/modelos/Niemira/Ensaio03/foto25.webp"
       ]
     },
     {
@@ -483,11 +932,25 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa":  "/static/img/modelos/Niemira/Ensaio04/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+       "/static/img/modelos/Niemira/Ensaio04/foto10.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto11.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto12.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto13.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto14.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto15.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto16.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto17.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto18.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto19.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto2.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto20.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto21.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto22.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto23.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto24.webp",
+            "/static/img/modelos/Niemira/Ensaio04/foto25.webp"
       ]
     },
     {
@@ -496,10 +959,48 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/PandoraRed/Ensaio02/foto12.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/PandoraRed/Ensaio02/foto1.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto10.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto11.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto12.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto13.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto14.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto15.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto16.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto17.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto18.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto19.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto2.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto20.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto21.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto22.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto23.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto24.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto25.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto26.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto27.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto28.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto29.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto3.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto30.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto31.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto32.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto33.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto34.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto35.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto36.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto37.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto38.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto39.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto4.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto40.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto5.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto6.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto7.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto8.webp",
+            "/static/img/modelos/PandoraRed/Ensaio02/foto9.webp"
       ]
     },
     {
@@ -508,10 +1009,36 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa": "/static/img/modelos/PandoraRed/Ensaio01/foto5.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+        "/static/img/modelos/PandoraRed/Ensaio01/foto1.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto10.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto11.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto12.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto13.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto14.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto15.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto16.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto17.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto18.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto19.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto2.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto20.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto21.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto22.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto23.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto24.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto25.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto26.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto27.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto28.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto29.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto3.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto30.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto31.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto32.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto33.webp",
+            "/static/img/modelos/PandoraRed/Ensaio01/foto34.webp"
       ]
     },
     {
@@ -520,10 +1047,24 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/PandoraRed/Ensaio03/foto14.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+        "/static/img/modelos/PandoraRed/Ensaio03/foto1.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto10.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto11.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto12.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto13.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto14.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto15.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto16.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto17.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto18.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto19.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto2.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto20.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto21.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto22.webp",
+            "/static/img/modelos/PandoraRed/Ensaio03/foto23.webp"
       ]
     },
     {
@@ -532,11 +1073,26 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa": "/static/img/modelos/PandoraRed/Ensaio04/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+            "/static/img/modelos/PandoraRed/Ensaio04/foto1.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto10.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto11.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto12.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto13.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto14.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto15.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto16.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto17.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto18.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto19.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto2.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto20.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto21.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto22.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto23.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto24.webp",
+            "/static/img/modelos/PandoraRed/Ensaio04/foto25.webp"
       ]
     },
     {
@@ -545,10 +1101,27 @@
       "titulo": "Ensaio Praia",
       "descricao": "Ensaio realizado na praia ao pôr do sol.",
       "data": "2025-01-15",
-      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "capa": "/static/img/modelos/VickiWade/Ensaio10/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/praia/01.jpg",
-        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+            "/static/img/modelos/VickiWade/Ensaio10/foto1.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto10.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto11.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto12.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto13.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto14.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto15.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto16.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto17.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto18.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto19.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto2.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto20.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto21.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto22.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto23.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto24.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto25.webp",
+            "/static/img/modelos/VickiWade/Ensaio10/foto26.webp"
       ]
     },
     {
@@ -557,10 +1130,22 @@
       "titulo": "Ensaio Studio",
       "descricao": "Ensaio em estúdio.",
       "data": "2025-03-10",
-      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "capa": "/static/img/modelos/VickiWade/Ensaio09/foto1.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/studio/01.jpg",
-        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+           "/static/img/modelos/VickiWade/Ensaio09/foto1.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto10.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto11.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto12.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto13.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto14.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto15.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto16.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto17.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto18.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto19.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto20.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto21.webp",
+            "/static/img/modelos/VickiWade/Ensaio09/foto22.webp"
       ]
     },
     {
@@ -569,10 +1154,22 @@
       "titulo": "Ensaio Urbano",
       "descricao": "Ensaio no centro da cidade.",
       "data": "2025-04-20",
-      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "capa":  "/static/img/modelos/VickiWade/Ensaio06/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
-        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+            "/static/img/modelos/VickiWade/Ensaio06/foto10.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto11.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto12.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto13.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto14.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto15.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto16.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto17.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto18.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto19.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto20.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto21.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto22.webp",
+            "/static/img/modelos/VickiWade/Ensaio06/foto23.webp"
       ]
     },
     {
@@ -581,11 +1178,300 @@
       "titulo": "Ensaio Cachoeira",
       "descricao": "Ensaio em meio à natureza.",
       "data": "2025-05-18",
-      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "capa":  "/static/img/modelos/VickiWade/Ensaio04/foto10.webp",
       "fotos": [
-        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
-        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+            "/static/img/modelos/VickiWade/Ensaio04/foto1.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto10.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto11.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto12.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto13.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto14.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto15.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto16.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto17.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto18.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto19.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto20.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto21.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto22.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto23.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto24.webp",
+            "/static/img/modelos/VickiWade/Ensaio04/foto25.webp"
+      ]
+    },
+    {
+      "codigo": "MOD013-ENS001",
+      "modeloId": "MOD013",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "/static/img/modelos/JillianJanson/Ensaio01/foto1.webp",
+      "fotos": [
+        "/static/img/modelos/JillianJanson/Ensaio01/foto1.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto10.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto11.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto12.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto13.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto14.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto15.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto16.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto17.webp",
+            "/static/img/modelos/JillianJanson/Ensaio01/foto18.webp"
+      ]
+    },
+    {
+      "codigo": "MOD013-ENS002",
+      "modeloId": "MOD013",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "/static/img/modelos/JillianJanson/Ensaio10/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/JillianJanson/Ensaio10/foto1.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto10.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto11.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto12.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto13.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto14.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto15.webp",
+            "/static/img/modelos/JillianJanson/Ensaio10/foto16.webp"
+      ]
+    },
+    {
+      "codigo": "MOD013-ENS003",
+      "modeloId": "MOD013",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "/static/img/modelos/JillianJanson/Ensaio07/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/JillianJanson/Ensaio07/foto1.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto10.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto11.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto12.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto13.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto14.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto15.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto16.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto17.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto18.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto19.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto20.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto21.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto22.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto23.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto24.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto25.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto26.webp",
+            "/static/img/modelos/JillianJanson/Ensaio07/foto27.webp"
+      ]
+    },
+    {
+      "codigo": "MOD013-ENS004",
+      "modeloId": "MOD013",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "/static/img/modelos/JillianJanson/Ensaio06/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/JillianJanson/Ensaio06/foto1.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto10.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto11.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto12.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto13.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto14.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto15.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto16.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto17.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto18.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto19.webp",
+            "/static/img/modelos/JillianJanson/Ensaio06/foto20.webp"
+      ]
+    },
+      {
+      "codigo": "MOD014-ENS001",
+      "modeloId": "MOD014",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa":  "/static/img/modelos/AlissaFoxy/Ensaio01/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto1.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto10.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto11.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto12.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto13.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto14.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto15.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto16.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto17.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto18.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto19.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto20.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto21.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto22.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto23.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio01/foto24.webp"
+      ]
+    },
+    {
+      "codigo": "MOD014-ENS002",
+      "modeloId": "MOD014",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "/static/img/modelos/AlissaFoxy/Ensaio02/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto1.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto10.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto11.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto12.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto13.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto14.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto15.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto16.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto17.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto18.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto19.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto20.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto21.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio02/foto22.webp"
+      ]
+    },
+    {
+      "codigo": "MOD014-ENS003",
+      "modeloId": "MOD014",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "/static/img/modelos/AlissaFoxy/Ensaio04/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto1.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto10.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto11.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto12.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto13.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto14.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto15.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto16.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto17.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto18.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto19.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto2.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto20.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto21.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio04/foto22.webp"
+      ]
+    },
+    {
+      "codigo": "MOD014-ENS004",
+      "modeloId": "MOD014",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa":"/static/img/modelos/AlissaFoxy/Ensaio05/foto1.webp",
+      "fotos": [
+       "/static/img/modelos/AlissaFoxy/Ensaio05/foto10.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto11.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto12.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto13.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto14.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto15.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto16.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto17.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto18.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto19.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto2.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto20.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto21.webp",
+            "/static/img/modelos/AlissaFoxy/Ensaio05/foto22.webp"
+      ]
+    },
+      {
+      "codigo": "MOD015-ENS001",
+      "modeloId": "MOD015",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa":  "/static/img/modelos/CharlieRed/Ensaio04/foto1.webp",
+      "fotos": [
+           "/static/img/modelos/CharlieRed/Ensaio04/foto1.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto2.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto3.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto4.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto5.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto6.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto7.webp",
+            "/static/img/modelos/CharlieRed/Ensaio04/foto8.webp"
+      ]
+    },
+    {
+      "codigo": "MOD015-ENS002",
+      "modeloId": "MOD015",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "/static/img/modelos/CharlieRed/Ensaio06/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/CharlieRed/Ensaio06/foto1.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto10.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto11.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto12.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto13.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto14.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto15.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto16.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto17.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto18.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto19.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto2.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto20.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto21.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto22.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto23.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto24.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto25.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto26.webp",
+            "/static/img/modelos/CharlieRed/Ensaio06/foto27.webp"
+      ]
+    },
+    {
+      "codigo": "MOD015-ENS003",
+      "modeloId": "MOD015",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa":  "/static/img/modelos/CharlieRed/Ensaio02/foto1.webp",
+      "fotos": [
+        "/static/img/modelos/CharlieRed/Ensaio02/foto1.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto10.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto11.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto12.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto2.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto3.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto4.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto5.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto6.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto7.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto8.webp",
+            "/static/img/modelos/CharlieRed/Ensaio02/foto9.webp"
+      ]
+    },
+    {
+      "codigo": "MOD015-ENS004",
+      "modeloId": "MOD015",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa":  "/static/img/modelos/CharlieRed/Ensaio01/foto1.webp",
+      "fotos": [
+            "/static/img/modelos/CharlieRed/Ensaio01/foto1.webp",
+            "/static/img/modelos/CharlieRed/Ensaio01/foto10.webp",
+            "/static/img/modelos/CharlieRed/Ensaio01/foto11.webp",
+            "/static/img/modelos/CharlieRed/Ensaio01/foto12.webp",
+            "/static/img/modelos/CharlieRed/Ensaio01/foto13.webp",
+            "/static/img/modelos/CharlieRed/Ensaio01/foto14.webp",
+            "/static/img/modelos/CharlieRed/Ensaio01/foto15.webp"
       ]
     }
   ]

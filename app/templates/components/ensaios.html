@@ -1,0 +1,66 @@
+<section class="ensaios-container">
+
+    <h2>Ensaios</h2>
+
+    {% for ensaio in ensaios %}
+
+    <article class="ensaio-card">
+
+        <div class="ensaio-info">
+
+            <h3>{{ ensaio.titulo }}</h3>
+
+            <p>{{ ensaio.descricao }}</p>
+
+            <small>{{ ensaio.data }}</small>
+
+        </div>
+
+
+        {% if ensaio.capa %}
+        <div class="capa">
+
+            <img
+                src="{{ ensaio.capa }}"
+                alt="{{ ensaio.titulo }}"
+                loading="lazy"
+                decoding="async"
+                width="1200"
+                height="700">
+
+        </div>
+        {% endif %}
+
+
+        <div class="galeria">
+
+            {% for foto in ensaio.fotos[:8] %}
+
+            <img
+                src="{{ foto }}"
+                alt="{{ ensaio.titulo }} - Foto {{ loop.index }}"
+                loading="lazy"
+                decoding="async"
+                width="400"
+                height="600">
+
+            {% endfor %}
+
+        </div>
+
+
+        {% if ensaio.fotos|length > 8 %}
+
+        <div class="mais-fotos">
+
+            + {{ ensaio.fotos|length - 8 }} fotos
+
+        </div>
+
+        {% endif %}
+
+    </article>
+
+    {% endfor %}
+
+</section>
