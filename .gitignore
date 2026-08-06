@@ -1,0 +1,39 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Flask
+instance/
+.webassets-cache/
+
+# CSS/JS gerados pelo Flask-Assets
+app/static/css/*.min.css
+app/static/js/*.min.js
+
+# Banco de dados local
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Pasta de imagens
+app/static/img/

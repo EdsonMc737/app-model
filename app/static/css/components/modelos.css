@@ -1,0 +1,376 @@
+/* ==========================================
+   TÍTULO DA SEÇÃO
+========================================== */
+
+.titulo-modelos{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    position:relative;
+
+}
+
+
+.titulo-modelos h1{
+
+    font-size:clamp(32px,5vw,48px);
+
+    font-weight:800;
+
+    color:#1b1b1b;
+
+    margin:0 0 12px;
+
+    letter-spacing:-1px;
+
+    position:relative;
+
+}
+
+
+/* linha decorativa abaixo do título */
+
+.titulo-modelos h1::after{
+
+    content:"";
+
+    display:block;
+
+    width:80px;
+
+    height:4px;
+
+    margin:15px auto 0;
+
+    border-radius:20px;
+
+    background:#111827;
+
+}
+
+
+.titulo-modelos p{
+
+    margin-top:18px;
+
+    font-size:18px;
+
+    color:#666;
+
+    font-weight:400;
+
+}
+
+
+/* versão para fundo escuro, se precisar */
+
+.titulo-modelos.claro h1{
+
+    color:#fff;
+
+}
+
+
+.titulo-modelos.claro p{
+
+    color:rgba(255,255,255,.8);
+
+}
+/* ==========================================
+   GRID
+========================================== */
+
+.grid-modelos{
+
+    max-width:1400px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    justify-content:center;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,220px));
+
+    gap:22px;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.modelo-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    aspect-ratio:3 / 4;
+
+    background:#000;
+
+    transition:.35s;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.modelo-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.20);
+
+}
+
+/* ==========================================
+   FOTO
+========================================== */
+
+.modelo-foto{
+
+    position:absolute;
+
+    inset:0;
+
+    overflow:hidden;
+
+}
+
+.modelo-foto a{
+
+    display:block;
+
+    width:100%;
+    height:100%;
+
+}
+
+.modelo-foto img{
+
+    width:100%;
+    height:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    /* Prioriza mostrar o rosto */
+    object-position:center top;
+
+    transition:transform .6s;
+
+}
+
+.modelo-card:hover .modelo-foto img{
+
+    transform:scale(1.08);
+
+}
+
+/* ==========================================
+   DEGRADÊ
+========================================== */
+
+.modelo-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.92) 8%,
+        rgba(0,0,0,.65) 35%,
+        rgba(0,0,0,.20) 65%,
+        transparent
+    );
+
+    z-index:1;
+
+    pointer-events:none;
+
+}
+
+/* ==========================================
+   INFORMAÇÕES
+========================================== */
+
+.modelo-info{
+
+    position:absolute;
+
+    left:0;
+    right:0;
+    bottom:0;
+
+    z-index:2;
+
+    padding:18px;
+
+    color:#fff;
+
+}
+
+.modelo-info h2{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+    color:#fff;
+
+    text-shadow:0 2px 8px rgba(0,0,0,.35);
+
+}
+
+.modelo-info p{
+
+    font-size:14px;
+
+    color:rgba(255,255,255,.95);
+
+    margin:4px 0;
+
+    line-height:1.4;
+
+    text-shadow:0 2px 6px rgba(0,0,0,.35);
+
+}
+
+/* ==========================================
+   BOTÃO
+========================================== */
+
+.btn-perfil{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:100%;
+
+    margin-top:14px;
+
+    padding:11px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#fff;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    -webkit-backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    transition:.3s;
+
+}
+
+.btn-perfil:hover{
+
+    background:#fff;
+
+    color:#111827;
+
+}
+/* ==========================================
+   CONTADOR DE MODELOS
+========================================== */
+
+.modelos-container > h3{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin-top:45px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#555;
+
+    text-align:center;
+
+}
+
+
+/* destaque apenas o número */
+
+.modelos-container > h3::first-letter{
+
+    color:#111827;
+
+}
+
+/* ==========================================
+   RESPONSIVO
+========================================== */
+
+@media(max-width:1200px){
+
+    .grid-modelos{
+
+        grid-template-columns:repeat(4,220px);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .grid-modelos{
+
+        grid-template-columns:repeat(3,220px);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .grid-modelos{
+
+        grid-template-columns:repeat(2,220px);
+
+    }
+
+}
+
+@media(max-width:520px){
+
+    .grid-modelos{
+
+        grid-template-columns:220px;
+
+    }
+
+}

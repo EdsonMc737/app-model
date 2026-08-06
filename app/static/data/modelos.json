@@ -1,0 +1,127 @@
+
+{
+  "modelos": [
+    {
+      "id": "MOD001",
+      "nome": "Elaine Bárbara da Cunha",
+      "idade": 22,
+      "signo": "Áries",
+      "fotoPerfil": "/static/img/modelos/AbellaDanger/Ensaio07/foto1.webp",
+      "banner": "/static/img/modelos/AbellaDanger/Ensaio01/foto1.webp"
+    },
+    {
+      "id": "MOD002",
+      "nome": "Regina Giovana Nogueira",
+      "idade": 25,
+      "signo": "Touro",
+      "fotoPerfil": "/static/img/modelos/Aleksandrina/Ensaio02/foto25.webp",
+      "banner": "/static/img/modelos/Aleksandrina/Ensaio05/foto27.webp"
+    },
+    {
+      "id": "MOD003",
+      "nome": "Lavínia Nina Dias",
+      "idade": 23,
+      "signo": "Gêmeos",
+      "fotoPerfil":  "/static/img/modelos/AlexGrey/Ensaio08/foto1.webp",
+      "banner": "/static/img/modelos/AlexGrey/Ensaio04/foto33.webp"
+    },
+    {
+      "id": "MOD004",
+      "nome": "Isadora Mirella Fogaça",
+      "idade": 26,
+      "signo": "Câncer",
+      "fotoPerfil": "/static/img/modelos/LanaRhoades/Ensaio10/foto1.webp",
+      "banner": "/static/img/modelos/LanaRhoades/Ensaio04/foto12.webp"
+    },
+    {
+      "id": "MOD005",
+      "nome": "Luana Carolina Alana Teixeira",
+      "idade": 24,
+      "signo": "Leão",
+      "fotoPerfil": "/static/img/modelos/LeahGotti/Ensaio01/foto16.webp",
+      "banner": "/static/img/modelos/LeahGotti/Ensaio10/foto21.webp"
+    },
+    {
+      "id": "MOD006",
+      "nome": "Bruna Maitê Duarte",
+      "idade": 26,
+      "signo": "Virgem",
+      "fotoPerfil": "/static/img/modelos/LenaPaul/Ensaio03/foto1.webp",
+      "banner": "/static/img/modelos/LenaPaul/Ensaio05/foto1.webp"
+    },
+    {
+      "id": "MOD007",
+      "nome": "Vera Alessandra Teixeira",
+      "idade": 25,
+      "signo": "Libra",
+      "fotoPerfil": "/static/img/modelos//MilaEx/ensaio2/foto11.webp",
+      "banner": "/static/img/modelos/MilaEx/ensaio3/foto13.webp"
+    },
+    {
+      "id": "MOD008",
+      "nome": "Raquel Isadora Heloisa Ribeiro",
+      "idade": 28,
+      "signo": "Escorpião",
+      "fotoPerfil":"/static/img/modelos/NancyA/Ensaio08/foto1.webp",
+      "banner": "/static/img/modelos/NancyA/Ensaio06/foto1.webp"
+    },
+    {
+      "id": "MOD009",
+      "nome": "Evelyn Isabelly Martins",
+      "idade": 29,
+      "signo": "Sagitário",
+      "fotoPerfil": "/static/img/modelos/NicoleAniston/Ensaio03/foto1.webp",
+      "banner": "/static/img/modelos/NicoleAniston/Ensaio06/foto1.webp"
+    },
+    {
+      "id": "MOD010",
+      "nome": "Benedita Carolina Vieira",
+      "idade": 30,
+      "signo": "Capricórnio",
+      "fotoPerfil": "/static/img/modelos/Niemira/Ensaio09/foto12.webp",
+      "banner":  "/static/img/modelos/Niemira/Ensaio01/foto1.webp"
+    },
+    {
+      "id": "MOD011",
+      "nome": "Agatha Lara Silveira",
+      "idade": 31,
+      "signo": "Aquário",
+      "fotoPerfil":"/static/img/modelos/PandoraRed/Ensaio06/foto1.webp",
+      "banner": "/static/img/modelos/PandoraRed/Ensaio06/foto3.webp"
+    },
+    {
+      "id": "MOD012",
+      "nome": "Emily Emanuelly Joana da Cruz",
+      "idade": 33,
+      "signo": "Peixes",
+      "fotoPerfil": "/static/img/modelos/VickiWade/Ensaio04/foto1.webp",
+      "banner":  "/static/img/modelos/VickiWade/Ensaio08/foto15.webp"
+    },
+     {
+      "id": "MOD013",
+      "nome": "Vitória Marli Aparício",
+      "idade": 26,
+      "signo": "Leão",
+      "fotoPerfil": "/static/img/modelos/JillianJanson/Ensaio08/foto1.webp",
+      "banner":  "/static/img/modelos/JillianJanson/Ensaio09/foto1.webp"
+    },
+     {
+      "id": "MOD014",
+      "nome": "Stella Luzia Natália Pinto",
+      "idade": 27,
+      "signo": "Áries",
+      "fotoPerfil": "/static/img/modelos/AlissaFoxy/Ensaio09/foto1.webp",
+      "banner":  "/static/img/modelos/AlissaFoxy/Ensaio01/foto1.webp"
+    },
+     {
+      "id": "MOD015",
+      "nome": "Priscila Camila Araújo",
+      "idade": 28,
+      "signo": "Peixes",
+      "fotoPerfil": "/static/img/modelos/CharlieRed/Ensaio03/foto2.webp",
+      "banner":  "/static/img/modelos/CharlieRed/Ensaio02/foto1.webp"
+    }
+  ]
+}
+
+

@@ -1,0 +1,188 @@
+body{
+    background:#f3f5f9;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.perfil-modelo{
+    max-width:1300px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+/* ===========================
+   BANNER
+=========================== */
+
+.perfil-banner{
+    height:600px;
+    overflow:hidden;
+    border-radius:35px;
+    position:relative;
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.20);
+}
+
+.perfil-banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.8s;
+}
+
+.perfil-banner:hover img{
+    transform:scale(1.08);
+}
+
+.perfil-banner::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,.05),
+        rgba(0,0,0,.55)
+    );
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.perfil-card{
+
+    width:92%;
+    margin:-120px auto 0;
+    position:relative;
+    z-index:5;
+
+    display:flex;
+    gap:50px;
+    align-items:center;
+
+    padding:45px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.45);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.18);
+
+}
+
+/* ===========================
+   FOTO
+=========================== */
+
+.perfil-foto img{
+
+    width:260px;
+    height:260px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:8px solid #fff;
+
+    transition:.4s;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.20);
+
+}
+
+.perfil-foto img:hover{
+
+    transform:scale(1.05) rotate(2deg);
+
+}
+
+/* ===========================
+   TEXTO
+=========================== */
+
+.perfil-info h1{
+
+    font-size:46px;
+    font-weight:700;
+
+    color:#222;
+
+    margin-bottom:20px;
+
+}
+
+.perfil-info p{
+
+    font-size:18px;
+    color:#666;
+    margin:12px 0;
+
+}
+
+.perfil-info strong{
+
+    color:#111;
+
+}
+
+.descricao{
+
+    margin-top:25px;
+    line-height:1.9;
+    color:#555;
+
+}
+
+/* ===========================
+   BOTÃO
+=========================== */
+
+.btn-voltar{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    margin-top:30px;
+
+    padding:15px 40px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    color:#fff;
+
+    background:linear-gradient(
+        135deg,
+        #ff4d6d,
+        #7b2ff7
+    );
+
+    transition:.35s;
+
+    box-shadow:
+        0 10px 30px rgba(123,47,247,.35);
+
+}
+
+.btn-voltar:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 20px 40px rgba(123,47,247,.45);
+
+}

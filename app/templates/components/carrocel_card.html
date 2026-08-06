@@ -1,0 +1,60 @@
+<section class="projetor-galeria">
+
+    <h2>Destaques</h2>
+
+    <div class="carousel">
+
+        <button class="seta esquerda">&#10094;</button>
+
+        <div class="carousel-container">
+
+            <div class="carousel-track">
+
+                {% for i in range(1,6) %}
+                <div class="card-projetor">
+                    <div class="lente">
+                        <img src="{{ url_for('static', filename='img/carrocel_card/card' ~ i ~ '.WEBP') }}">
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <button class="seta direita">&#10095;</button>
+
+    </div>
+
+</section>
+
+<section id="modelos" class="modelos-section">
+
+    <h2>Modelos</h2>
+
+    <div class="cards">
+
+        {% for modelo in modelos %}
+
+        <div class="card">
+
+            <div class="foto-modelo">
+                <img src="{{ modelo.fotoPerfil }}"
+                     alt="{{ modelo.nome }}">
+            </div>
+
+            <h3>{{ modelo.nome }}</h3>
+
+            <a href="{{ url_for('home.perfil', id=modelo.id) }}">
+                Ver perfil
+            </a>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<script src="{{ url_for('static', filename='js/components/carrocel_card.js') }}"></script>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    {% if config.DEBUG %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% else %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.min.css') }}">
+    {% endif %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Title</title>
+</head>
+<body>
+
+    <header>
+        {% include "components/navmenu.html" %}
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+     {% include "components/footer.html" %}
+</body>
+</html>

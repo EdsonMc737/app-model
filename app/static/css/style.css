@@ -1,0 +1,25 @@
+@import url(pages/reset.css);
+@import url(components/navmenu.css);
+@import url(components/footer.css);
+@import url(components/banner.css);
+@import url(components/carrocel_card.css);
+@import url(components/modelos.css);
+@import url(components/perfil_modelo.css);
+
+:root{
+
+    --bg:#f4f6fb;
+    --card:#ffffff;
+    --text:#1b1b1b;
+    --text2:#6f7481;
+    --primary:#111827;
+    --accent:#5b6cff;
+    --radius:32px;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}

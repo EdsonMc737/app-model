@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow-x: hidden;
+
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+
+    width: 100%;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+    padding: 15px clamp(15px, 5vw, 40px);
+
+
+    background: #111;
+
+    border-bottom: 1px solid #2d2d2d;
+
+}
+
+
+
+/* LOGO */
+
+.logo a {
+
+    color: white;
+
+    font-size: clamp(20px, 3vw, 26px);
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    letter-spacing: 1px;
+
+    white-space: nowrap;
+
+}
+
+
+
+/* ÁREA CENTRAL DO MENU */
+
+.nav-content {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+}
+
+
+
+/* MENU */
+
+.menu {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: clamp(15px, 3vw, 35px);
+
+    list-style: none;
+
+}
+
+
+
+.menu li {
+
+    position: relative;
+
+}
+
+
+
+.menu a {
+
+    color: #ddd;
+
+    text-decoration: none;
+
+    font-size: clamp(13px, 2vw, 15px);
+
+    transition: .25s;
+
+    position: relative;
+
+}
+
+
+
+.menu a:hover {
+
+    color: #fff;
+
+}
+
+
+
+/* LINHA DOS LINKS */
+
+.menu a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -6px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: #ff4d4d;
+
+    transition: .25s;
+
+}
+
+
+
+.menu a:hover::after {
+
+    width: 100%;
+
+}
+
+
+
+/* DROPDOWN */
+
+.dropdown-menu {
+
+    position: absolute;
+
+    top: 35px;
+
+    left: 0;
+
+
+    display: none;
+
+
+    min-width: 200px;
+
+
+    padding: 10px 0;
+
+
+    background: #111;
+
+    border-radius: 10px;
+
+
+    list-style: none;
+
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.4);
+
+}
+
+
+.dropdown-menu li {
+
+    padding: 10px 20px;
+
+}
+
+
+.dropdown:hover .dropdown-menu {
+
+    display: block;
+
+}
+
+
+
+/* BUSCA */
+
+.acoes {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.acoes input {
+
+    width: clamp(180px, 20vw, 230px);
+
+
+    padding: 10px 14px;
+
+
+    border: none;
+
+    outline: none;
+
+
+    border-radius: 25px;
+
+
+    background: #222;
+
+    color: white;
+
+}
+
+
+
+.acoes input::placeholder {
+
+    color: #888;
+
+}
+
+
+
+/* BOTÃO MOBILE */
+
+.menu-toggle {
+
+    display: none;
+
+
+    background: transparent;
+
+    border: none;
+
+
+    color: white;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* TABLET */
+
+@media(max-width: 900px) {
+
+
+    .navbar {
+
+        flex-wrap: wrap;
+
+    }
+
+
+    .nav-content {
+
+        width: 100%;
+
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+    }
+
+
+    .menu {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+    }
+
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width: 650px) {
+
+
+    .navbar {
+
+
+        flex-direction: row;
+
+        justify-content: space-between;
+
+
+        padding: 15px 20px;
+
+    }
+
+
+
+    .menu-toggle {
+
+        display: block;
+
+    }
+
+
+
+    .nav-content {
+
+
+        position: absolute;
+
+
+        top: 70px;
+
+        left: 0;
+
+
+        width: 100%;
+
+
+        display: none;
+
+
+        flex-direction: column;
+
+        align-items: center;
+
+
+        padding: 25px;
+
+
+        background: #111;
+
+
+        border-top: 1px solid #2d2d2d;
+
+    }
+
+
+
+    .nav-content.active {
+
+        display: flex;
+
+    }
+
+
+
+    .menu {
+
+        flex-direction: column;
+
+
+        width: 100%;
+
+
+        gap: 15px;
+
+
+        text-align: center;
+
+    }
+
+
+
+    .menu li {
+
+        width: 100%;
+
+    }
+
+
+
+    .menu a {
+
+        display: block;
+
+        padding: 8px;
+
+    }
+
+
+
+    .dropdown-menu {
+
+
+        position: static;
+
+
+        width: 100%;
+
+
+        margin-top: 10px;
+
+    }
+
+
+
+    .acoes {
+
+
+        width: 100%;
+
+        justify-content: center;
+
+    }
+
+
+
+    .acoes input {
+
+
+        width: 100%;
+
+        max-width: 300px;
+
+    }
+
+
+}
+
+
+
+/* CELULAR PEQUENO */
+
+@media(max-width: 400px) {
+
+
+    .logo a {
+
+        font-size: 20px;
+
+    }
+
+
+
+    .acoes input {
+
+        max-width: 250px;
+
+    }
+
+
+}

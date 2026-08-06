@@ -1,0 +1,592 @@
+{
+  "ensaio": [
+    {
+      "codigo": "MOD001-ENS001",
+      "modeloId": "MOD001",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD001-ENS002",
+      "modeloId": "MOD001",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD001-ENS003",
+      "modeloId": "MOD001",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD001-ENS004",
+      "modeloId": "MOD001",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD002-ENS001",
+      "modeloId": "MOD002",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD002-ENS002",
+      "modeloId": "MOD002",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD002-ENS003",
+      "modeloId": "MOD002",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD002-ENS004",
+      "modeloId": "MOD002",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD003-ENS001",
+      "modeloId": "MOD003",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD003-ENS002",
+      "modeloId": "MOD003",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD003-ENS003",
+      "modeloId": "MOD003",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD003-ENS004",
+      "modeloId": "MOD003",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD004-ENS001",
+      "modeloId": "MOD004",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD004-ENS002",
+      "modeloId": "MOD004",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD004-ENS003",
+      "modeloId": "MOD004",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD004-ENS004",
+      "modeloId": "MOD004",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD005-ENS001",
+      "modeloId": "MOD005",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD005-ENS002",
+      "modeloId": "MOD005",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD005-ENS003",
+      "modeloId": "MOD005",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD005-ENS004",
+      "modeloId": "MOD005",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD006-ENS001",
+      "modeloId": "MOD006",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD006-ENS002",
+      "modeloId": "MOD006",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD006-ENS003",
+      "modeloId": "MOD006",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD006-ENS004",
+      "modeloId": "MOD006",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD007-ENS001",
+      "modeloId": "MOD007",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD007-ENS002",
+      "modeloId": "MOD007",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD007-ENS003",
+      "modeloId": "MOD007",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD007-ENS004",
+      "modeloId": "MOD007",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD008-ENS001",
+      "modeloId": "MOD008",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD008-ENS002",
+      "modeloId": "MOD008",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD008-ENS003",
+      "modeloId": "MOD008",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD008-ENS004",
+      "modeloId": "MOD008",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD009-ENS001",
+      "modeloId": "MOD009",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD009-ENS002",
+      "modeloId": "MOD009",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD009-ENS003",
+      "modeloId": "MOD009",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD009-ENS004",
+      "modeloId": "MOD009",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD010-ENS001",
+      "modeloId": "MOD010",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD010-ENS002",
+      "modeloId": "MOD010",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD010-ENS003",
+      "modeloId": "MOD010",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD010-ENS004",
+      "modeloId": "MOD010",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD011-ENS001",
+      "modeloId": "MOD011",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD011-ENS002",
+      "modeloId": "MOD011",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD011-ENS003",
+      "modeloId": "MOD011",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD011-ENS004",
+      "modeloId": "MOD011",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD012-ENS001",
+      "modeloId": "MOD012",
+      "titulo": "Ensaio Praia",
+      "descricao": "Ensaio realizado na praia ao pôr do sol.",
+      "data": "2025-01-15",
+      "capa": "https://exemplo.com/ensaios/ana/praia/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/praia/01.jpg",
+        "https://exemplo.com/ensaios/ana/praia/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD012-ENS002",
+      "modeloId": "MOD012",
+      "titulo": "Ensaio Studio",
+      "descricao": "Ensaio em estúdio.",
+      "data": "2025-03-10",
+      "capa": "https://exemplo.com/ensaios/ana/studio/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/studio/01.jpg",
+        "https://exemplo.com/ensaios/ana/studio/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD012-ENS003",
+      "modeloId": "MOD012",
+      "titulo": "Ensaio Urbano",
+      "descricao": "Ensaio no centro da cidade.",
+      "data": "2025-04-20",
+      "capa": "https://exemplo.com/ensaios/beatriz/urbano/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/beatriz/urbano/01.jpg",
+        "https://exemplo.com/ensaios/beatriz/urbano/02.jpg"
+      ]
+    },
+    {
+      "codigo": "MOD012-ENS004",
+      "modeloId": "MOD012",
+      "titulo": "Ensaio Cachoeira",
+      "descricao": "Ensaio em meio à natureza.",
+      "data": "2025-05-18",
+      "capa": "https://exemplo.com/ensaios/ana/cachoeira/capa.jpg",
+      "fotos": [
+        "https://exemplo.com/ensaios/ana/cachoeira/01.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/02.jpg",
+        "https://exemplo.com/ensaios/ana/cachoeira/03.jpg"
+      ]
+    }
+  ]
+}

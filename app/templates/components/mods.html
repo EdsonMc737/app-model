@@ -1,0 +1,84 @@
+<section class="modelos-container">
+
+    <div class="titulo-modelos">
+
+        <h1>
+            Nossas Modelos
+        </h1>
+
+        <p>
+            Conheça nosso catálogo completo
+        </p>
+
+    </div>
+
+    <div class="grid-modelos">
+
+        {% if modelos and modelos|length > 0 %}
+
+            {% for modelo in modelos %}
+
+            <div class="modelo-card">
+
+                <div class="modelo-foto">
+
+                    <a href="{{ url_for('home.perfil', id=modelo.id) }}">
+
+                        <img
+                            src="{{ url_for('static', filename=modelo.fotoPerfil.replace('static/', '')) }}"
+                            alt="{{ modelo.nome }}">
+
+                    </a>
+
+                </div>
+
+                <div class="modelo-info">
+
+                    <h2>
+                        {{ modelo.nome }}
+                    </h2>
+
+                    {% if modelo.idade %}
+                    <p>
+                        {{ modelo.idade }} anos
+                    </p>
+                    {% endif %}
+
+                    {% if modelo.signo %}
+                    <p>
+                        Signo: {{ modelo.signo }}
+                    </p>
+                    {% endif %}
+
+                    <a href="{{ url_for('home.perfil', id=modelo.id) }}"
+                       class="btn-perfil">
+
+                        Ver Perfil
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <div class="sem-modelos">
+
+                <h3>
+                    Nenhuma modelo cadastrada.
+                </h3>
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+    <h3>
+        Total de modelos: {{ modelos|length }}
+    </h3>
+
+</section>
