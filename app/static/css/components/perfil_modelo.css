@@ -1,583 +1,641 @@
-/* ===========================
-   CONTAINER
-=========================== */
 
-.perfil-modelo{
+/* =========================================================
+   PERFIL — PÁGINA
+========================================================= */
 
-    max-width:1300px;
-
-    margin:auto;
-
-    padding:50px 20px;
-
+.perfil-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #f7f7f9;
 }
 
 
-
-/* ===========================
+/* =========================================================
    BANNER
-=========================== */
+========================================================= */
 
-.perfil-banner{
+.perfil-banner {
 
-    height:600px;
+    position: relative;
 
-    overflow:hidden;
+    width: 100%;
 
-    border-radius:35px;
+    height: clamp(280px, 42vw, 520px);
 
-    position:relative;
+    overflow: hidden;
 
-    box-shadow:
-    0 25px 60px rgba(0,0,0,.20);
-
+    background: #151519;
 }
 
 
+/* imagem do banner */
 
-.perfil-banner img{
+.perfil-banner > img {
 
-    width:100%;
+    display: block;
 
-    height:100%;
+    width: 100%;
+    height: 100%;
 
-    object-fit:cover;
+    object-fit: cover;
 
-    transition:.8s;
+    object-position: center;
 
+    transition:
+        transform 1s ease;
 }
 
 
+/* zoom suave */
 
-.perfil-banner:hover img{
+.perfil-banner:hover > img {
 
-    transform:scale(1.08);
-
+    transform: scale(1.02);
 }
 
 
+/* =========================================================
+   OVERLAY
+========================================================= */
 
-.perfil-banner::after{
+.banner-overlay {
 
-    content:"";
+    position: absolute;
 
-    position:absolute;
-
-    inset:0;
+    inset: 0;
 
     background:
-    linear-gradient(
-        to bottom,
-        rgba(0,0,0,.05),
-        rgba(0,0,0,.60)
-    );
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.10) 0%,
+            rgba(0, 0, 0, 0.20) 45%,
+            rgba(0, 0, 0, 0.70) 100%
+        );
 
+    pointer-events: none;
 }
 
 
+/* =========================================================
+   CARD DO PERFIL
+========================================================= */
 
-/* ===========================
-   CARD
-=========================== */
+.perfil-card {
 
+    position: relative;
 
-.perfil-card{
+    z-index: 5;
 
+    width: min(1150px, calc(100% - 40px));
 
-    width:90%;
+    min-height: 300px;
 
-    margin:-120px auto 0;
-
-
-    position:relative;
-
-    z-index:5;
-
-
-    display:flex;
-
-    align-items:center;
-
-
-    gap:50px;
-
-
-    padding:45px;
-
-
-    border-radius:30px;
-
-
-    background:
-    rgba(255,255,255,.75);
-
-
-    backdrop-filter:blur(20px);
-
-
-    border:
-    1px solid rgba(255,255,255,.45);
-
-
-
-    box-shadow:
-    0 20px 60px rgba(0,0,0,.18);
-
-
-}
-
-
-
-/* ===========================
-   FOTO
-=========================== */
-
-
-.perfil-foto{
-
-
-    flex-shrink:0;
-
-
-}
-
-
-
-.perfil-foto img{
-
-
-    width:260px;
-
-    height:260px;
-
-
-    border-radius:50%;
-
-
-    object-fit:cover;
-
-
-    border:
-
-    8px solid #fff;
-
-
-    box-shadow:
-
-    0 15px 40px rgba(0,0,0,.25);
-
-
-    transition:.4s;
-
-
-}
-
-
-
-.perfil-foto img:hover{
-
-
-    transform:
-    scale(1.05)
-    rotate(2deg);
-
-
-}
-
-
-
-/* ===========================
-   INFORMAÇÕES
-=========================== */
-
-
-.perfil-info{
-
-
-    flex:1;
-
-}
-
-
-
-.perfil-info h1{
-
-
-    font-size:
-
-    clamp(32px,5vw,46px);
-
-
-    font-weight:800;
-
-
-    color:#222;
-
-
-    margin:0 0 20px;
-
-
-}
-
-
-
-.perfil-info p{
-
-
-    font-size:18px;
-
-
-    color:#666;
-
-
-    margin:12px 0;
-
-
-}
-
-
-
-.perfil-info strong{
-
-    color:#111;
-
-}
-
-
-
-/* TAGS */
-
-
-.perfil-dados{
-
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:12px;
-
-    margin-top:15px;
-
-
-}
-
-
-
-.perfil-dados span{
-
+    margin:
+        -90px auto 70px;
 
     padding:
+        35px 40px;
 
-    8px 18px;
+    display: flex;
 
+    align-items: center;
 
-    border-radius:30px;
+    gap: 40px;
 
+    background: rgba(255, 255, 255, 0.98);
 
-    background:#f1f5f9;
+    border:
+        1px solid rgba(0, 0, 0, 0.06);
 
-
-    color:#334155;
-
-
-    font-size:14px;
-
-
-}
-
-
-
-/* DESCRIÇÃO */
-
-
-.descricao{
-
-
-    margin-top:25px;
-
-
-    line-height:1.8;
-
-
-    color:#64748b;
-
-
-}
-
-
-
-/* ===========================
-   BOTÃO
-=========================== */
-
-
-.btn-voltar{
-
-
-    display:inline-flex;
-
-
-    align-items:center;
-
-    justify-content:center;
-
-
-    margin-top:30px;
-
-
-    padding:15px 40px;
-
-
-    border-radius:40px;
-
-
-    text-decoration:none;
-
-
-    font-weight:600;
-
-
-    color:white;
-
-
-    background:
-    linear-gradient(
-        135deg,
-        #ff4d6d,
-        #7b2ff7
-    );
-
-
-    transition:.35s;
-
+    border-radius: 28px;
 
     box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.15);
 
-    0 10px 30px rgba(123,47,247,.35);
+    backdrop-filter: blur(15px);
 
+    -webkit-backdrop-filter: blur(15px);
 
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 
+/* =========================================================
+   FOTO DO PERFIL
+========================================================= */
 
-.btn-voltar:hover{
+.perfil-foto {
 
+    position: relative;
+
+    flex-shrink: 0;
+
+    width: 190px;
+    height: 190px;
+
+    padding: 5px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff4d6d,
+            #ff758f,
+            #8b5cf6
+        );
+
+    box-shadow:
+        0 15px 40px rgba(255, 77, 109, 0.25);
+}
+
+
+/* brilho externo */
+
+.perfil-foto::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: -7px;
+
+    border-radius: 50%;
+
+    border:
+        1px solid
+        rgba(255, 77, 109, 0.20);
+
+    opacity: 0.8;
+}
+
+
+/* imagem */
+
+.perfil-foto img {
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border:
+        5px solid #fff;
+
+    border-radius: 50%;
+
+    transition:
+        transform 0.45s ease;
+}
+
+
+.perfil-foto:hover img {
 
     transform:
-
-    translateY(-5px);
-
-
+        scale(1.05);
 }
 
 
+/* =========================================================
+   INFORMAÇÕES
+========================================================= */
 
-/* ===========================
+.perfil-info {
+
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+/* =========================================================
+   NOME
+========================================================= */
+
+.perfil-info h1 {
+
+    margin: 0 0 15px;
+
+    color: #19191f;
+
+    font-size:
+        clamp(30px, 4vw, 48px);
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    letter-spacing:
+        -1.5px;
+}
+
+
+/* =========================================================
+   DADOS
+========================================================= */
+
+.perfil-dados {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 22px;
+}
+
+
+.perfil-dados span {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    padding:
+        8px 13px;
+
+    color: #55555e;
+
+    background: #f4f4f7;
+
+    border:
+        1px solid rgba(0, 0, 0, 0.05);
+
+    border-radius: 30px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.perfil-dados span:hover {
+
+    background: #eeeeF2;
+
+    transform:
+        translateY(-2px);
+}
+
+
+/* =========================================================
+   DESCRIÇÃO
+========================================================= */
+
+.descricao {
+
+    max-width: 750px;
+
+    margin: 0 0 25px;
+
+    color: #66666f;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   BOTÕES
+========================================================= */
+
+.perfil-acoes {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+
+/* botão principal */
+
+.perfil-acoes button {
+
+    min-width: 135px;
+
+    padding:
+        12px 22px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    color: #fff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff4d6d,
+            #e93659
+        );
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 20px
+        rgba(255, 77, 109, 0.20);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease;
+}
+
+
+.perfil-acoes button:hover {
+
+    transform:
+        translateY(-3px);
+
+    filter:
+        brightness(1.06);
+
+    box-shadow:
+        0 12px 28px
+        rgba(255, 77, 109, 0.30);
+}
+
+
+/* =========================================================
+   BOTÃO SECUNDÁRIO
+========================================================= */
+
+.perfil-acoes .secundario {
+
+    color: #33333a;
+
+    background: #fff;
+
+    border:
+        1px solid #dedee4;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.perfil-acoes .secundario:hover {
+
+    color: #ff4d6d;
+
+    background:
+        #fff5f7;
+
+    border-color:
+        rgba(255, 77, 109, 0.35);
+
+    box-shadow:
+        0 8px 20px
+        rgba(255, 77, 109, 0.10);
+}
+
+
+/* =========================================================
    TABLET
-=========================== */
+========================================================= */
 
+@media (max-width: 900px) {
 
-@media(max-width:1000px){
+    .perfil-banner {
 
-
-    .perfil-banner{
-
-
-        height:450px;
-
+        height:
+            clamp(250px, 45vw, 400px);
     }
 
 
+    .perfil-card {
 
-    .perfil-card{
+        width:
+            calc(100% - 30px);
 
+        margin-top:
+            -70px;
 
-        width:94%;
+        padding:
+            30px;
 
+        gap: 28px;
 
-        gap:30px;
-
-
-        padding:35px;
-
-
+        border-radius: 24px;
     }
 
 
+    .perfil-foto {
 
-    .perfil-foto img{
-
-
-        width:200px;
-
-        height:200px;
-
-
+        width: 155px;
+        height: 155px;
     }
 
 
+    .perfil-info h1 {
 
+        font-size:
+            clamp(28px, 5vw, 40px);
+    }
+
+
+    .descricao {
+
+        font-size: 15px;
+
+        line-height: 1.6;
+    }
 }
 
 
+/* =========================================================
+   CELULAR
+========================================================= */
 
-/* ===========================
-   MOBILE
-=========================== */
+@media (max-width: 650px) {
 
+    .perfil-banner {
 
-@media(max-width:700px){
-
-
-    .perfil-modelo{
-
-
-        padding:30px 15px;
-
+        height: 280px;
     }
 
 
+    .perfil-card {
 
-    .perfil-banner{
+        width:
+            calc(100% - 24px);
 
+        margin:
+            -60px auto 40px;
 
-        height:350px;
+        padding:
+            25px 20px;
 
+        flex-direction: column;
 
-        border-radius:25px;
+        text-align: center;
 
+        gap: 20px;
 
+        border-radius: 22px;
     }
 
 
+    /* foto */
 
-    .perfil-card{
+    .perfil-foto {
 
-
-        width:100%;
-
-
-        margin:-70px auto 0;
-
-
-        padding:40px 25px;
-
-
-        flex-direction:column;
-
-
-        text-align:center;
-
-
-        gap:20px;
-
-
+        width: 135px;
+        height: 135px;
     }
 
 
+    /* informações */
 
-    .perfil-foto img{
+    .perfil-info {
 
-
-        width:150px;
-
-        height:150px;
-
-
-        border-width:6px;
-
-
+        width: 100%;
     }
 
 
+    .perfil-info h1 {
 
-    .perfil-info h1{
+        margin-bottom: 14px;
 
+        font-size: 32px;
 
-        font-size:32px;
-
-
+        letter-spacing:
+            -0.8px;
     }
 
 
+    /* dados */
 
-    .perfil-info p{
+    .perfil-dados {
 
+        justify-content: center;
 
-        font-size:16px;
+        gap: 7px;
 
-
+        margin-bottom: 18px;
     }
 
 
+    .perfil-dados span {
 
-    .perfil-dados{
+        padding:
+            7px 11px;
 
-
-        justify-content:center;
-
+        font-size: 13px;
     }
 
 
+    /* descrição */
 
-    .btn-voltar{
+    .descricao {
 
+        margin-bottom: 22px;
 
-        width:100%;
+        font-size: 14px;
 
-
+        line-height: 1.65;
     }
 
 
+    /* botões */
+
+    .perfil-acoes {
+
+        width: 100%;
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+
+    .perfil-acoes button {
+
+        width: 100%;
+
+        max-width: 320px;
+
+        padding:
+            12px 20px;
+    }
 }
 
 
-
-/* ===========================
+/* =========================================================
    CELULAR PEQUENO
-=========================== */
+========================================================= */
 
+@media (max-width: 400px) {
 
-@media(max-width:400px){
+    .perfil-banner {
 
-
-    .perfil-banner{
-
-
-        height:280px;
-
+        height: 240px;
     }
 
 
+    .perfil-card {
 
-    .perfil-card{
+        width:
+            calc(100% - 18px);
 
+        margin-top:
+            -50px;
 
-        padding:35px 18px;
+        padding:
+            22px 15px;
 
+        border-radius: 19px;
     }
 
 
+    .perfil-foto {
 
-    .perfil-foto img{
-
-
-        width:120px;
-
-        height:120px;
-
-
+        width: 115px;
+        height: 115px;
     }
 
 
+    .perfil-info h1 {
 
-    .perfil-info h1{
-
-
-        font-size:27px;
-
+        font-size: 28px;
     }
 
 
+    .perfil-dados span {
+
+        font-size: 12px;
+
+        padding:
+            6px 9px;
+    }
+
+
+    .descricao {
+
+        font-size: 13px;
+    }
 }
