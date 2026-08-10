@@ -14,8 +14,8 @@
       "nome": "Regina Giovana Nogueira",
       "idade": 25,
       "signo": "Touro",
-      "fotoPerfil": "/static/img/modelos/Aleksandrina/Ensaio02/foto25.webp",
-      "banner": "/static/img/modelos/Aleksandrina/Ensaio05/foto27.webp"
+      "fotoPerfil":  "/static/img/modelos/Aleksandrina/Ensaio02/foto7.webp",
+      "banner": "/static/img/modelos/Aleksandrina/Ensaio10/foto1.webp"
     },
     {
       "id": "MOD003",
@@ -54,7 +54,7 @@
       "nome": "Vera Alessandra Teixeira",
       "idade": 25,
       "signo": "Libra",
-      "fotoPerfil": "/static/img/modelos//MilaEx/ensaio2/foto11.webp",
+      "fotoPerfil": "/static/img/modelos/MilaEx/ensaio2/foto11.webp",
       "banner": "/static/img/modelos/MilaEx/ensaio3/foto13.webp"
     },
     {

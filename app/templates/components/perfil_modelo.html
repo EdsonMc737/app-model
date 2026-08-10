@@ -1,14 +1,14 @@
 <section class="perfil-modelo">
 
-
     <div class="perfil-banner">
 
         <img 
-        src="{{ modelo.banner }}"
-        alt="Banner {{ modelo.nome }}">
+            src="{{ modelo.banner }}"
+            alt="Banner {{ modelo.nome }}">
+
+        <div class="banner-overlay"></div>
 
     </div>
-
 
 
     <div class="perfil-card">
@@ -17,27 +17,58 @@
         <div class="perfil-foto">
 
             <img
-            src="{{ modelo.fotoPerfil }}"
-            alt="{{ modelo.nome }}">
+                src="{{ modelo.fotoPerfil }}"
+                alt="{{ modelo.nome }}">
 
         </div>
 
 
+
         <div class="perfil-info">
+
 
             <h1>
                 {{ modelo.nome }}
             </h1>
 
 
-            <p>
-                Idade: {{ modelo.idade }} anos
+            <div class="perfil-dados">
+
+                <span>
+                    🎂 {{ modelo.idade }} anos
+                </span>
+
+                <span>
+                    ♈ {{ modelo.signo }}
+                </span>
+
+                <span>
+                    📍 {{ modelo.cidade }}
+                </span>
+
+            </div>
+
+
+
+            <p class="descricao">
+
+                {{ modelo.descricao }}
+
             </p>
 
 
-            <p>
-                Signo: {{ modelo.signo }}
-            </p>
+
+            <div class="perfil-acoes">
+
+                <button>
+                    Ver Perfil
+                </button>
+
+                <button class="secundario">
+                    Favoritar ♡
+                </button>
+
+            </div>
 
 
         </div>

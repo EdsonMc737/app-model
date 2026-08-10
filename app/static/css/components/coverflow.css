@@ -1,498 +1,862 @@
+
 /* =====================================
    COVERFLOW GALERIA
 ===================================== */
 
-.projetor-galeria{
+.projetor-galeria {
 
-    padding:90px 20px;
-    background:#f6f7fb;
+    width: 100%;
 
+    padding:
+        90px 20px;
+
+    background:
+        #f6f7fb;
+
+    overflow: hidden;
 }
 
 
-.projetor-galeria h2{
+.projetor-galeria h2 {
 
-    text-align:center;
-    font-size:clamp(30px,4vw,46px);
-    font-weight:800;
-    color:#1d1d1f;
-    margin-bottom:50px;
+    margin:
+        0 0 50px;
 
+    text-align: center;
+
+    color:
+        #1d1d1f;
+
+    font-size:
+        clamp(30px, 4vw, 46px);
+
+    font-weight:
+        800;
+
+    line-height:
+        1.2;
 }
-
 
 
 /* =====================================
    CONTAINER
 ===================================== */
 
-.coverflow{
+.coverflow {
 
-    position:relative;
+    position: relative;
 
-    max-width:1400px;
+    width: 100%;
 
-    height:600px;
+    max-width: 1400px;
 
-    margin:auto;
+    height: 600px;
 
-    display:flex;
+    margin: 0 auto;
 
-    align-items:center;
+    display: flex;
 
-    justify-content:center;
+    align-items: center;
 
-    perspective:1200px;
+    justify-content: center;
 
+    perspective:
+        1200px;
+
+    overflow: visible;
 }
 
 
+.coverflow-container {
 
-.coverflow-container{
+    position: relative;
 
-    width:100%;
+    width: 100%;
 
-    height:100%;
+    height: 100%;
 
-    overflow:visible;
-
+    overflow: visible;
 }
 
 
+.coverflow-track {
 
-.coverflow-track{
+    position: relative;
 
-    position:relative;
+    width: 100%;
 
-    width:100%;
-
-    height:100%;
-
+    height: 100%;
 }
-
 
 
 /* =====================================
    CARD
 ===================================== */
 
-.coverflow-card{
+.coverflow-card {
 
-    position:absolute;
+    position: absolute;
 
-    top:50%;
+    top: 50%;
 
-    left:50%;
+    left: 50%;
 
+    width: 360px;
 
-    width:360px;
-
-    height:520px;
-
+    height: 520px;
 
     transform:
-    translate(-50%,-50%)
-    scale(.75);
+        translate(-50%, -50%)
+        scale(.75);
 
+    border-radius: 25px;
 
-    border-radius:25px;
+    overflow: hidden;
 
-    overflow:hidden;
-
-    background:#fff;
-
+    background:
+        #fff;
 
     box-shadow:
-    0 25px 60px rgba(0,0,0,.25);
-
+        0 25px 60px
+        rgba(0, 0, 0, .25);
 
     transition:
-    transform .6s cubic-bezier(.22,.61,.36,1),
-    opacity .6s ease,
-    filter .6s ease;
+        transform .6s cubic-bezier(.22,.61,.36,1),
+        opacity .6s ease,
+        filter .6s ease;
 
-
-    opacity:.45;
+    opacity:
+        .45;
 
     filter:
-    brightness(.65)
-    blur(1px);
+        brightness(.65)
+        blur(1px);
 
-
-    transform-style:preserve-3d;
-
+    transform-style:
+        preserve-3d;
 }
 
 
+/* =====================================
+   IMAGEM
+===================================== */
 
-/* IMAGEM */
+.coverflow-card img {
 
-.coverflow-card img{
+    display: block;
 
-    width:100%;
+    width: 100%;
 
-    height:100%;
+    height: 100%;
 
-    object-fit:cover;
-
+    object-fit: cover;
 }
-
 
 
 /* =====================================
    CARD CENTRAL
 ===================================== */
 
-
-.coverflow-card.center{
+.coverflow-card.center {
 
     transform:
-    translate(-50%,-50%)
-    scale(1);
+        translate(-50%, -50%)
+        scale(1);
 
+    opacity:
+        1;
 
-    opacity:1;
+    filter:
+        none;
 
-    filter:none;
-
-    z-index:10;
-
+    z-index:
+        10;
 
     animation:
-    destaque .45s ease;
-
+        destaque .45s ease;
 }
-
 
 
 /* =====================================
    CARD ESQUERDA
 ===================================== */
 
-
-.coverflow-card.left{
+.coverflow-card.left {
 
     transform:
-    translate(calc(-50% - 270px),-50%)
-    scale(.78)
-    rotateY(30deg);
+        translate(calc(-50% - 270px), -50%)
+        scale(.78)
+        rotateY(30deg);
 
-
-    z-index:5;
-
+    z-index:
+        5;
 }
-
 
 
 /* =====================================
    CARD DIREITA
 ===================================== */
 
-
-.coverflow-card.right{
-
+.coverflow-card.right {
 
     transform:
-    translate(calc(-50% + 270px),-50%)
-    scale(.78)
-    rotateY(-30deg);
+        translate(calc(-50% + 270px), -50%)
+        scale(.78)
+        rotateY(-30deg);
 
-
-    z-index:5;
-
+    z-index:
+        5;
 }
 
 
+/* =====================================
+   ESCONDIDOS
+===================================== */
 
-/* ESCONDIDOS */
+.coverflow-card.hidden {
 
-.coverflow-card.hidden{
-
-
-    opacity:0;
-
+    opacity:
+        0;
 
     transform:
-    translate(-50%,-50%)
-    scale(.5);
+        translate(-50%, -50%)
+        scale(.5);
 
-
-    pointer-events:none;
-
+    pointer-events:
+        none;
 }
-
 
 
 /* =====================================
    INFORMAÇÕES
 ===================================== */
 
+.coverflow-info {
 
-.coverflow-info{
+    position: absolute;
 
-    position:absolute;
+    left: 25px;
 
-    bottom:25px;
+    right: 25px;
 
-    left:25px;
+    bottom: 25px;
 
-    color:white;
+    z-index: 20;
 
-    z-index:20;
-
+    color:
+        #fff;
 
     text-shadow:
-    0 5px 20px rgba(0,0,0,.8);
-
+        0 5px 20px
+        rgba(0, 0, 0, .8);
 }
 
 
+.coverflow-info h3 {
 
-.coverflow-info h3{
+    margin:
+        0;
 
+    font-size:
+        clamp(24px, 3vw, 36px);
 
-    margin:0;
+    font-weight:
+        800;
 
-    font-size:36px;
-
-    font-weight:800;
-
+    line-height:
+        1.1;
 }
 
 
+.coverflow-info span {
 
-.coverflow-info span{
+    display:
+        inline-block;
 
+    margin-top:
+        8px;
 
-    display:inline-block;
+    padding:
+        7px 18px;
 
-    margin-top:8px;
-
-    padding:7px 18px;
-
-
-    border-radius:30px;
-
+    border-radius:
+        30px;
 
     background:
-    rgba(255,255,255,.18);
-
+        rgba(255, 255, 255, .18);
 
     backdrop-filter:
-    blur(12px);
+        blur(12px);
 
+    -webkit-backdrop-filter:
+        blur(12px);
 
-    font-size:15px;
-
+    font-size:
+        15px;
 }
-
 
 
 /* =====================================
    BOTÕES
 ===================================== */
 
+.coverflow-btn {
 
-.coverflow-btn{
+    position: absolute;
 
-
-    position:absolute;
-
-
-    top:50%;
-
+    top: 50%;
 
     transform:
-    translateY(-50%);
+        translateY(-50%);
 
+    width:
+        55px;
 
-    width:55px;
+    height:
+        55px;
 
-    height:55px;
+    display:
+        flex;
 
+    align-items:
+        center;
 
-    border:none;
+    justify-content:
+        center;
 
+    padding:
+        0;
 
-    border-radius:50%;
+    border:
+        none;
 
+    border-radius:
+        50%;
 
-    background:#111827;
+    background:
+        #111827;
 
+    color:
+        #fff;
 
-    color:#fff;
+    font-size:
+        28px;
 
+    line-height:
+        1;
 
-    font-size:28px;
+    cursor:
+        pointer;
 
+    z-index:
+        30;
 
-    cursor:pointer;
-
-
-    z-index:30;
-
-
-    transition:.3s;
-
+    transition:
+        background .3s ease,
+        transform .3s ease;
 }
 
 
+.coverflow-btn:hover {
 
-.coverflow-btn:hover{
-
-
-    background:#5b6cff;
-
+    background:
+        #5b6cff;
 
     transform:
-    translateY(-50%)
-    scale(1.1);
-
+        translateY(-50%)
+        scale(1.1);
 }
 
 
+.coverflow-btn.esquerda {
 
-.coverflow-btn.esquerda{
-
-    left:15px;
-
+    left:
+        15px;
 }
 
 
+.coverflow-btn.direita {
 
-.coverflow-btn.direita{
-
-    right:15px;
-
+    right:
+        15px;
 }
-
 
 
 /* =====================================
    ANIMAÇÃO
 ===================================== */
 
+@keyframes destaque {
 
-@keyframes destaque{
-
-
-    from{
+    from {
 
         transform:
-        translate(-50%,-50%)
-        scale(.92);
-
+            translate(-50%, -50%)
+            scale(.92);
     }
 
-
-    to{
+    to {
 
         transform:
-        translate(-50%,-50%)
-        scale(1);
-
+            translate(-50%, -50%)
+            scale(1);
     }
-
 }
-
 
 
 /* =====================================
-   RESPONSIVO
+   TABLET GRANDE
 ===================================== */
 
+@media (max-width: 1100px) {
 
-@media(max-width:900px){
+    .projetor-galeria {
 
-
-    .coverflow{
-
-        height:500px;
-
+        padding:
+            75px 15px;
     }
 
 
+    .coverflow {
 
-    .coverflow-card{
-
-
-        width:280px;
-
-        height:420px;
-
+        height:
+            540px;
     }
 
 
+    .coverflow-card {
 
-    .coverflow-card.left{
+        width:
+            310px;
+
+        height:
+            460px;
+    }
+
+
+    .coverflow-card.left {
 
         transform:
-        translate(calc(-50% - 150px),-50%)
-        scale(.7)
-        rotateY(25deg);
-
+            translate(calc(-50% - 210px), -50%)
+            scale(.74)
+            rotateY(27deg);
     }
 
 
-
-    .coverflow-card.right{
-
+    .coverflow-card.right {
 
         transform:
-        translate(calc(-50% + 150px),-50%)
-        scale(.7)
-        rotateY(-25deg);
-
+            translate(calc(-50% + 210px), -50%)
+            scale(.74)
+            rotateY(-27deg);
     }
 
 
+    .coverflow-btn.esquerda {
 
+        left:
+            10px;
+    }
+
+
+    .coverflow-btn.direita {
+
+        right:
+            10px;
+    }
 }
 
 
+/* =====================================
+   TABLET
+===================================== */
 
-@media(max-width:600px){
+@media (max-width: 900px) {
 
+    .projetor-galeria {
 
-    .coverflow{
-
-        height:430px;
-
+        padding:
+            65px 15px;
     }
 
 
-    .coverflow-card{
+    .projetor-galeria h2 {
 
-
-        width:250px;
-
-        height:360px;
-
+        margin-bottom:
+            35px;
     }
 
 
+    .coverflow {
 
-    .coverflow-card.left,
-    .coverflow-card.right{
+        height:
+            500px;
 
-
-        opacity:.2;
-
+        perspective:
+            1000px;
     }
 
 
+    .coverflow-card {
 
-    .coverflow-btn{
+        width:
+            280px;
 
+        height:
+            420px;
 
-        width:45px;
-
-        height:45px;
-
-        font-size:22px;
-
+        border-radius:
+            22px;
     }
 
 
+    .coverflow-card.left {
+
+        transform:
+            translate(calc(-50% - 150px), -50%)
+            scale(.70)
+            rotateY(25deg);
+    }
+
+
+    .coverflow-card.right {
+
+        transform:
+            translate(calc(-50% + 150px), -50%)
+            scale(.70)
+            rotateY(-25deg);
+    }
+
+
+    .coverflow-info {
+
+        left:
+            20px;
+
+        right:
+            20px;
+
+        bottom:
+            20px;
+    }
+
+
+    .coverflow-info h3 {
+
+        font-size:
+            28px;
+    }
+
+
+    .coverflow-info span {
+
+        padding:
+            6px 14px;
+
+        font-size:
+            13px;
+    }
+}
+
+
+/* =====================================
+   CELULAR
+===================================== */
+
+@media (max-width: 600px) {
+
+    .projetor-galeria {
+
+        padding:
+            50px 10px;
+    }
+
+
+    .projetor-galeria h2 {
+
+        margin-bottom:
+            25px;
+
+        font-size:
+            clamp(28px, 8vw, 34px);
+    }
+
+
+    .coverflow {
+
+        height:
+            430px;
+
+        width:
+            100%;
+
+        perspective:
+            800px;
+    }
+
+
+    .coverflow-card {
+
+        width:
+            min(250px, 68vw);
+
+        height:
+            min(360px, 78vw);
+
+        border-radius:
+            20px;
+    }
+
+
+    /*
+       Cards laterais ficam mais discretos
+       para não ocuparem a tela toda.
+    */
+
+    .coverflow-card.left {
+
+        transform:
+            translate(calc(-50% - 105px), -50%)
+            scale(.58)
+            rotateY(20deg);
+
+        opacity:
+            .20;
+    }
+
+
+    .coverflow-card.right {
+
+        transform:
+            translate(calc(-50% + 105px), -50%)
+            scale(.58)
+            rotateY(-20deg);
+
+        opacity:
+            .20;
+    }
+
+
+    .coverflow-card.center {
+
+        transform:
+            translate(-50%, -50%)
+            scale(1);
+    }
+
+
+    .coverflow-info {
+
+        left:
+            16px;
+
+        right:
+            16px;
+
+        bottom:
+            16px;
+    }
+
+
+    .coverflow-info h3 {
+
+        font-size:
+            23px;
+    }
+
+
+    .coverflow-info span {
+
+        margin-top:
+            6px;
+
+        padding:
+            6px 12px;
+
+        font-size:
+            12px;
+    }
+
+
+    /* BOTÕES */
+
+    .coverflow-btn {
+
+        width:
+            44px;
+
+        height:
+            44px;
+
+        font-size:
+            22px;
+
+        background:
+            rgba(17, 24, 39, .92);
+    }
+
+
+    .coverflow-btn.esquerda {
+
+        left:
+            3px;
+    }
+
+
+    .coverflow-btn.direita {
+
+        right:
+            3px;
+    }
+
+
+    .coverflow-btn:hover {
+
+        transform:
+            translateY(-50%);
+    }
+}
+
+
+/* =====================================
+   CELULAR PEQUENO
+===================================== */
+
+@media (max-width: 400px) {
+
+    .projetor-galeria {
+
+        padding:
+            40px 8px;
+    }
+
+
+    .projetor-galeria h2 {
+
+        margin-bottom:
+            20px;
+
+        font-size:
+            28px;
+    }
+
+
+    .coverflow {
+
+        height:
+            390px;
+    }
+
+
+    .coverflow-card {
+
+        width:
+            220px;
+
+        height:
+            320px;
+
+        border-radius:
+            17px;
+    }
+
+
+    .coverflow-card.left {
+
+        transform:
+            translate(calc(-50% - 82px), -50%)
+            scale(.52)
+            rotateY(18deg);
+
+        opacity:
+            .15;
+    }
+
+
+    .coverflow-card.right {
+
+        transform:
+            translate(calc(-50% + 82px), -50%)
+            scale(.52)
+            rotateY(-18deg);
+
+        opacity:
+            .15;
+    }
+
+
+    .coverflow-info {
+
+        left:
+            13px;
+
+        right:
+            13px;
+
+        bottom:
+            13px;
+    }
+
+
+    .coverflow-info h3 {
+
+        font-size:
+            20px;
+    }
+
+
+    .coverflow-info span {
+
+        font-size:
+            11px;
+
+        padding:
+            5px 10px;
+    }
+
+
+    .coverflow-btn {
+
+        width:
+            38px;
+
+        height:
+            38px;
+
+        font-size:
+            19px;
+    }
+
+
+    .coverflow-btn.esquerda {
+
+        left:
+            1px;
+    }
+
+
+    .coverflow-btn.direita {
+
+        right:
+            1px;
+    }
+}
+
+
+/* =====================================
+   TOUCH — CELULAR
+===================================== */
+
+@media (hover: none) {
+
+    .coverflow-btn:hover {
+
+        background:
+            #111827;
+
+        transform:
+            translateY(-50%);
+    }
 
 }
+

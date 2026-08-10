@@ -1,12 +1,6 @@
 <nav class="navbar">
 
-    <div class="logo">
-
-        <a href="{{ url_for('home.home_page') }}">
-            Meu Site
-        </a>
-
-    </div>
+    <div class="logo"> <a href="{{ url_for('home.home_page') }}"> Meu Site </a> </div>
 
 
     <!-- BOTÃO MOBILE -->
@@ -18,18 +12,10 @@
 
     <div class="nav-content" id="nav-content">
 
-
         <ul class="menu">
 
-
-            <li>
-                <a href="{{ url_for('home.home_page') }}">
-                    Início
-                </a>
-            </li>
-
-
-
+            <li> <a href="{{ url_for('home.home_page') }}"> Início </a> </li>
+            
             {% if itens %}
 
             <li class="dropdown">
@@ -60,43 +46,10 @@
             {% endif %}
 
 
-
-            {% if modelos %}
-
-            <li class="dropdown">
-
-
-                <a href="#">
-                    Modelos ▾
-                </a>
-
-
-                <ul class="dropdown-menu">
-
-
-                    {% for modelo in modelos %}
-
-                    <li>
-                        <a href="#">
-                            {{ modelo.nome }}
-                        </a>
-                    </li>
-
-                    {% endfor %}
-
-
-                </ul>
-
-
-            </li>
-
-            {% endif %}
-            <li>
                  <a href="{{ url_for('home.modelos') }}">
             Modelos
             </a>
             </li>
-
 
             <li>
                 <a href="#">

@@ -1,0 +1,915 @@
+
+/* =========================================================
+   SEÇÃO — ENSAIOS
+========================================================= */
+
+.ensaios-section {
+    width: 100%;
+    max-width: 1400px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+
+/* =========================================================
+   TÍTULO
+========================================================= */
+
+.ensaios-section > h2,
+body > h2 {
+    margin: 0 0 45px;
+
+    text-align: center;
+
+    color: #1a1a1f;
+
+    font-size: clamp(30px, 4vw, 46px);
+
+    font-weight: 800;
+
+    letter-spacing: -1.5px;
+}
+
+
+/* =========================================================
+   CARD DO ENSAIO
+========================================================= */
+
+.ensaio-card {
+    position: relative;
+
+    width: 100%;
+
+    margin-bottom: 45px;
+
+    padding: 25px;
+
+    overflow: hidden;
+
+    background: #fff;
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.07);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+
+/* brilho decorativo */
+
+.ensaio-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: -100px;
+    right: -100px;
+
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255, 77, 109, 0.06);
+
+    pointer-events: none;
+
+    transition:
+        transform 0.5s ease;
+}
+
+
+.ensaio-card:hover::before {
+    transform: scale(1.35);
+}
+
+
+.ensaio-card:hover {
+    transform: translateY(-5px);
+
+    border-color:
+        rgba(255, 77, 109, 0.15);
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   INFORMAÇÕES DO ENSAIO
+========================================================= */
+
+.ensaio-info {
+    position: relative;
+
+    z-index: 2;
+
+    margin-bottom: 22px;
+
+    padding: 5px 5px 0;
+}
+
+
+.ensaio-info h3 {
+    margin: 0 0 9px;
+
+    color: #1c1c22;
+
+    font-size:
+        clamp(21px, 2.5vw, 28px);
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    letter-spacing: -0.5px;
+}
+
+
+.ensaio-info p {
+    max-width: 850px;
+
+    margin: 0 0 12px;
+
+    color: #66666f;
+
+    font-size: 15px;
+
+    line-height: 1.65;
+}
+
+
+.ensaio-info small {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 6px 11px;
+
+    color: #777780;
+
+    background: #f4f4f6;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   CAPA
+========================================================= */
+
+.capa {
+    position: relative;
+
+    width: 100%;
+
+    height:
+        clamp(250px, 45vw, 520px);
+
+    margin-bottom: 18px;
+
+    overflow: hidden;
+
+    background: #eeeeF1;
+
+    border-radius: 18px;
+
+    cursor: pointer;
+}
+
+
+.capa img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    transition:
+        transform 0.6s ease;
+}
+
+
+.ensaio-card:hover .capa img {
+    transform: scale(1.025);
+}
+
+
+/* =========================================================
+   GALERIA
+========================================================= */
+
+.galeria {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 12px;
+
+    margin-top: 12px;
+}
+
+
+/* =========================================================
+   FOTOS
+========================================================= */
+
+.galeria img {
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 3 / 4;
+
+    object-fit: cover;
+
+    border-radius: 14px;
+
+    background: #eeeeF1;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.35s ease,
+        filter 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+.galeria img:hover {
+    transform: scale(1.035);
+
+    filter: brightness(1.04);
+
+    box-shadow:
+        0 12px 25px
+        rgba(0, 0, 0, 0.16);
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* =========================================================
+   MAIS FOTOS
+========================================================= */
+
+.mais-fotos {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: fit-content;
+
+    margin: 18px auto 0;
+
+    padding: 9px 18px;
+
+    color: #fff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff4d6d,
+            #e93659
+        );
+
+    border-radius: 30px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    box-shadow:
+        0 7px 18px
+        rgba(255, 77, 109, 0.18);
+
+    cursor: pointer;
+
+    user-select: none;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+.mais-fotos:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(255, 77, 109, 0.28);
+}
+
+
+/* =========================================================
+   MODAL — GALERIA
+========================================================= */
+
+.galeria-modal {
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 99999;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 30px;
+
+    background:
+        rgba(0, 0, 0, 0.96);
+
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+.galeria-modal.aberto {
+    display: flex;
+}
+
+
+/* =========================================================
+   CONTEÚDO DO MODAL
+========================================================= */
+
+.modal-conteudo {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    min-width: 0;
+    min-height: 0;
+}
+
+
+/* =========================================================
+   IMAGEM DO MODAL
+========================================================= */
+
+#modalImagem {
+    display: block;
+
+    width: auto;
+    height: auto;
+
+    max-width: calc(100vw - 180px);
+    max-height: calc(100vh - 80px);
+
+    object-fit: contain;
+
+    user-select: none;
+
+    -webkit-user-drag: none;
+
+    border-radius: 3px;
+}
+
+
+/* =========================================================
+   BOTÃO FECHAR
+========================================================= */
+
+.modal-fechar {
+    position: fixed;
+
+    top: 20px;
+    right: 25px;
+
+    z-index: 100001;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+    padding: 0;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255, 255, 255, 0.12);
+
+    color: #fff;
+
+    font-size: 38px;
+
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.modal-fechar:hover {
+    background:
+        rgba(255, 255, 255, 0.22);
+
+    transform: scale(1.08);
+}
+
+
+/* =========================================================
+   SETAS
+========================================================= */
+
+.modal-seta {
+    position: fixed;
+
+    top: 50%;
+
+    z-index: 100001;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 90px;
+
+    padding: 0;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background:
+        rgba(255, 255, 255, 0.10);
+
+    color: #fff;
+
+    font-size: 38px;
+
+    line-height: 1;
+
+    cursor: pointer;
+
+    transform: translateY(-50%);
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.modal-seta:hover {
+    background:
+        rgba(255, 255, 255, 0.20);
+
+    transform:
+        translateY(-50%) scale(1.04);
+}
+
+
+.modal-esquerda {
+    left: 25px;
+}
+
+
+.modal-direita {
+    right: 25px;
+}
+
+
+/* =========================================================
+   CONTADOR
+========================================================= */
+
+.modal-contador {
+    position: fixed;
+
+    left: 50%;
+    bottom: 20px;
+
+    z-index: 100001;
+
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    background:
+        rgba(0, 0, 0, 0.55);
+
+    color: #fff;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transform: translateX(-50%);
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .ensaios-section {
+        margin: 60px auto;
+
+        padding:
+            0 20px;
+    }
+
+
+    .ensaio-card {
+        padding: 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .capa {
+        height:
+            clamp(230px, 45vw, 400px);
+
+        border-radius: 15px;
+    }
+
+
+    .galeria {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+
+        gap: 10px;
+    }
+
+
+    .galeria img {
+        border-radius: 11px;
+    }
+
+
+    /* MODAL */
+
+    .galeria-modal {
+        padding: 20px;
+    }
+
+
+    #modalImagem {
+        max-width: calc(100vw - 140px);
+        max-height: calc(100vh - 70px);
+    }
+
+
+    .modal-seta {
+        width: 52px;
+        height: 75px;
+
+        font-size: 32px;
+    }
+
+
+    .modal-esquerda {
+        left: 15px;
+    }
+
+
+    .modal-direita {
+        right: 15px;
+    }
+
+
+    .modal-fechar {
+        top: 15px;
+        right: 15px;
+
+        width: 46px;
+        height: 46px;
+
+        font-size: 34px;
+    }
+}
+
+
+/* =========================================================
+   CELULAR
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .ensaios-section {
+        margin: 45px auto;
+
+        padding:
+            0 14px;
+    }
+
+
+    .ensaios-section > h2,
+    body > h2 {
+
+        margin-bottom: 30px;
+
+        font-size: 32px;
+    }
+
+
+    .ensaio-card {
+        margin-bottom: 28px;
+
+        padding: 16px;
+
+        border-radius: 18px;
+    }
+
+
+    .ensaio-card:hover {
+        transform: none;
+    }
+
+
+    .ensaio-info {
+        padding:
+            3px 3px 0;
+
+        margin-bottom: 17px;
+    }
+
+
+    .ensaio-info h3 {
+        font-size: 21px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .ensaio-info p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    .capa {
+        height: 230px;
+
+        margin-bottom: 12px;
+
+        border-radius: 13px;
+    }
+
+
+    .galeria {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 8px;
+    }
+
+
+    .galeria img {
+        border-radius: 10px;
+    }
+
+
+    .galeria img:hover {
+        transform: none;
+
+        filter: none;
+
+        box-shadow: none;
+    }
+
+
+    .mais-fotos {
+        margin-top: 14px;
+
+        padding:
+            8px 15px;
+
+        font-size: 12px;
+    }
+
+
+    /* =====================================================
+       MODAL — CELULAR
+    ===================================================== */
+
+    .galeria-modal {
+        padding: 8px;
+    }
+
+
+    #modalImagem {
+        max-width: 94vw;
+
+        max-height: 82vh;
+    }
+
+
+    .modal-fechar {
+        top: 10px;
+        right: 10px;
+
+        width: 42px;
+        height: 42px;
+
+        font-size: 30px;
+    }
+
+
+    .modal-seta {
+        width: 42px;
+        height: 62px;
+
+        font-size: 27px;
+
+        border-radius: 10px;
+
+        background:
+            rgba(0, 0, 0, 0.45);
+    }
+
+
+    .modal-esquerda {
+        left: 5px;
+    }
+
+
+    .modal-direita {
+        right: 5px;
+    }
+
+
+    .modal-contador {
+        bottom: 10px;
+
+        padding: 6px 12px;
+
+        font-size: 12px;
+    }
+}
+
+
+/* =========================================================
+   CELULAR PEQUENO
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .ensaios-section {
+        padding:
+            0 10px;
+    }
+
+
+    .ensaios-section > h2,
+    body > h2 {
+
+        font-size: 29px;
+    }
+
+
+    .ensaio-card {
+        padding: 13px;
+
+        border-radius: 16px;
+    }
+
+
+    .capa {
+        height: 200px;
+
+        border-radius: 11px;
+    }
+
+
+    .galeria {
+        gap: 6px;
+    }
+
+
+    .galeria img {
+        border-radius: 8px;
+    }
+
+
+    /* MODAL */
+
+    #modalImagem {
+        max-width: 94vw;
+
+        max-height: 80vh;
+    }
+
+
+    .modal-seta {
+        width: 36px;
+        height: 54px;
+
+        font-size: 23px;
+
+        border-radius: 8px;
+    }
+
+
+    .modal-esquerda {
+        left: 3px;
+    }
+
+
+    .modal-direita {
+        right: 3px;
+    }
+
+
+    .modal-fechar {
+        top: 8px;
+        right: 8px;
+
+        width: 38px;
+        height: 38px;
+
+        font-size: 27px;
+    }
+
+
+    .modal-contador {
+        bottom: 8px;
+
+        padding: 5px 10px;
+
+        font-size: 11px;
+    }
+}
+
+
+/* =========================================================
+   TELAS MUITO BAIXAS
+========================================================= */
+
+@media (max-height: 500px) and (orientation: landscape) {
+
+    #modalImagem {
+        max-height: 88vh;
+
+        max-width: calc(100vw - 130px);
+    }
+
+
+    .modal-fechar {
+        top: 8px;
+        right: 10px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .modal-seta {
+        width: 42px;
+        height: 60px;
+    }
+
+
+    .modal-contador {
+        bottom: 6px;
+    }
+}
+

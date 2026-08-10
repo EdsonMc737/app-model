@@ -1,52 +1,84 @@
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
 .footer {
+
+    width: 100%;
 
     margin-top: 60px;
 
-    padding: 40px 20px 20px;
+    padding:
+        40px 20px 20px;
 
     background: #111;
 
-    border-top: 1px solid #2d2d2d;
+    border-top:
+        1px solid #2d2d2d;
 
     text-align: center;
 
 }
 
 
-/* LOGO */
+/* =========================================================
+   LOGO
+========================================================= */
+
+.footer-logo {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin: 0 auto;
+}
+
 
 .footer-logo a {
+
+    display: inline-block;
 
     text-decoration: none;
 
     color: #fff;
 
-    font-size: clamp(22px, 4vw, 28px);
+    font-size:
+        clamp(22px, 4vw, 28px);
 
     font-weight: bold;
 
+    line-height: 1.2;
 }
 
 
 .footer-logo p {
 
+    max-width: 550px;
+
+    margin:
+        12px auto 0;
+
     color: #999;
 
-    margin-top: 12px;
+    font-size:
+        clamp(13px, 2vw, 14px);
 
-    font-size: clamp(13px, 2vw, 14px);
-
-    line-height: 1.5;
-
+    line-height: 1.6;
 }
 
 
-
-/* REDES SOCIAIS */
+/* =========================================================
+   REDES SOCIAIS
+========================================================= */
 
 .footer-social {
 
-    margin: 30px 0;
+    width: 100%;
+
+    margin:
+        30px auto;
 
     display: flex;
 
@@ -57,12 +89,13 @@
     gap: 18px;
 
     flex-wrap: wrap;
-
 }
 
 
-
 .footer-social a {
+
+    flex:
+        0 0 auto;
 
     width: 50px;
 
@@ -84,33 +117,42 @@
 
     font-size: 22px;
 
-    transition: .3s;
-
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease;
 }
-
 
 
 .footer-social a:hover {
 
-    transform: translateY(-5px);
+    transform:
+        translateY(-5px);
 
     background: #ff4d4d;
 
     color: #fff;
 
     box-shadow:
-        0 10px 20px rgba(255,77,77,.35);
-
+        0 10px 20px
+        rgba(255, 77, 77, 0.35);
 }
 
 
-
-/* COPYRIGHT */
+/* =========================================================
+   COPYRIGHT
+========================================================= */
 
 .footer-copy {
 
-    border-top:
+    width: 100%;
 
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    border-top:
         1px solid #2d2d2d;
 
     padding-top: 20px;
@@ -119,90 +161,51 @@
 
     font-size: 13px;
 
-    line-height: 1.5;
-
+    line-height: 1.6;
 }
 
 
-
-/* TABLETS */
+/* =========================================================
+   TABLET
+========================================================= */
 
 @media (max-width: 768px) {
 
-
     .footer {
 
-        margin-top: 40px;
+        margin-top: 45px;
 
-        padding: 35px 15px 20px;
-
-    }
-
-
-    .footer-social {
-
-        gap: 15px;
-
-        margin: 25px 0;
-
-    }
-
-
-    .footer-social a {
-
-        width: 45px;
-
-        height: 45px;
-
-        font-size: 20px;
-
-    }
-
-}
-
-
-
-/* CELULARES */
-
-@media (max-width: 480px) {
-
-
-    .footer {
-
-        padding: 30px 10px 15px;
-
-    }
-
-
-    .footer-logo a {
-
-        font-size: 22px;
-
+        padding:
+            35px 20px 20px;
     }
 
 
     .footer-logo p {
 
+        max-width: 500px;
+
         font-size: 13px;
 
+        line-height: 1.6;
     }
 
 
     .footer-social {
 
-        gap: 12px;
+        margin:
+            25px auto;
 
+        gap: 15px;
     }
 
 
     .footer-social a {
 
-        width: 42px;
+        width: 46px;
 
-        height: 42px;
+        height: 46px;
 
-        font-size: 18px;
-
+        font-size: 20px;
     }
 
 
@@ -210,8 +213,140 @@
 
         font-size: 12px;
 
-        padding-top: 15px;
-
+        padding-top: 18px;
     }
 
 }
+
+
+/* =========================================================
+   CELULAR
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .footer {
+
+        margin-top: 35px;
+
+        padding:
+            30px 15px 18px;
+    }
+
+
+    .footer-logo a {
+
+        font-size: 22px;
+    }
+
+
+    .footer-logo p {
+
+        margin-top: 10px;
+
+        font-size: 13px;
+
+        line-height: 1.55;
+    }
+
+
+    .footer-social {
+
+        margin:
+            24px auto;
+
+        gap: 12px;
+    }
+
+
+    .footer-social a {
+
+        width: 43px;
+
+        height: 43px;
+
+        font-size: 18px;
+    }
+
+
+    .footer-copy {
+
+        padding-top: 15px;
+
+        font-size: 11px;
+
+        line-height: 1.5;
+    }
+
+}
+
+
+/* =========================================================
+   CELULAR PEQUENO
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .footer {
+
+        padding:
+            25px 10px 15px;
+    }
+
+
+    .footer-logo a {
+
+        font-size: 20px;
+    }
+
+
+    .footer-logo p {
+
+        font-size: 12px;
+
+        line-height: 1.5;
+    }
+
+
+    .footer-social {
+
+        gap: 9px;
+
+        margin:
+            20px auto;
+    }
+
+
+    .footer-social a {
+
+        width: 40px;
+
+        height: 40px;
+
+        font-size: 17px;
+    }
+
+
+    .footer-copy {
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================================
+   DISPOSITIVOS COM TOUCH
+========================================================= */
+
+@media (hover: none) {
+
+    .footer-social a:hover {
+
+        transform: none;
+
+        box-shadow: none;
+    }
+
+}
+

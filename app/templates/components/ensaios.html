@@ -1,0 +1,133 @@
+
+<h2>Ensaios</h2>
+
+{% for ensaio in ensaios %}
+
+<article
+    class="ensaio-card"
+    data-galeria='{{ ensaio.fotos | tojson | forceescape }}'>
+
+    <div class="ensaio-info">
+
+        <h3>{{ ensaio.titulo }}</h3>
+
+        <p>{{ ensaio.descricao }}</p>
+
+        <small>{{ ensaio.data }}</small>
+
+    </div>
+
+
+    {% if ensaio.capa %}
+
+    <div class="capa">
+
+        <img
+            src="{{ ensaio.capa }}"
+            alt="{{ ensaio.titulo }}"
+            loading="lazy"
+            decoding="async"
+            width="1200"
+            height="700"
+            class="abrir-foto"
+            data-foto-index="0">
+
+    </div>
+
+    {% endif %}
+
+
+    <div class="galeria">
+
+        {% for foto in ensaio.fotos[:8] %}
+
+        <img
+            src="{{ foto }}"
+            alt="{{ ensaio.titulo }} - Foto {{ loop.index }}"
+            loading="lazy"
+            decoding="async"
+            width="400"
+            height="600"
+            class="abrir-foto"
+            data-foto-index="{{ loop.index0 }}">
+
+        {% endfor %}
+
+    </div>
+
+
+    {% if ensaio.fotos|length > 8 %}
+
+    <div
+        class="mais-fotos"
+        data-foto-index="0">
+
+        + {{ ensaio.fotos|length - 8 }} fotos
+
+    </div>
+
+    {% endif %}
+
+</article>
+
+{% endfor %}
+
+
+<!-- =====================================================
+     MODAL
+===================================================== -->
+
+<div
+    id="galeriaModal"
+    class="galeria-modal"
+    aria-hidden="true">
+
+    <button
+        type="button"
+        class="modal-fechar"
+        aria-label="Fechar">
+
+        &times;
+
+    </button>
+
+
+    <button
+        type="button"
+        class="modal-seta modal-esquerda"
+        aria-label="Foto anterior">
+
+        &#10094;
+
+    </button>
+
+
+    <div class="modal-conteudo">
+
+        <img
+            id="modalImagem"
+            src=""
+            alt=""
+            draggable="false">
+
+        <div
+            id="modalContador"
+            class="modal-contador">
+        </div>
+
+    </div>
+
+
+    <button
+        type="button"
+        class="modal-seta modal-direita"
+        aria-label="Próxima foto">
+
+        &#10095;
+
+    </button>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='js/components/ensaios.js') }}"></script>
