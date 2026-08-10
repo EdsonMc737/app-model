@@ -1,33 +1,43 @@
+
+/* =========================================================
+   RESET
+========================================================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 body {
+    width: 100%;
+    min-height: 100vh;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
 
     overflow-x: hidden;
-
 }
 
 
-
-/* NAVBAR */
+/* =========================================================
+   NAVBAR
+========================================================= */
 
 .navbar {
-
     position: sticky;
 
     top: 0;
-
     z-index: 1000;
 
-
     width: 100%;
-
 
     display: flex;
 
@@ -35,25 +45,34 @@ body {
 
     justify-content: space-between;
 
+    gap: 20px;
 
-    padding: 15px clamp(15px, 5vw, 40px);
-
+    padding:
+        15px
+        clamp(15px, 5vw, 40px);
 
     background: #111;
 
-    border-bottom: 1px solid #2d2d2d;
-
+    border-bottom:
+        1px solid #2d2d2d;
 }
 
 
+/* =========================================================
+   LOGO
+========================================================= */
 
-/* LOGO */
+.logo {
+    flex-shrink: 0;
+}
 
 .logo a {
+    display: block;
 
     color: white;
 
-    font-size: clamp(20px, 3vw, 26px);
+    font-size:
+        clamp(20px, 3vw, 26px);
 
     font-weight: bold;
 
@@ -62,77 +81,73 @@ body {
     letter-spacing: 1px;
 
     white-space: nowrap;
-
 }
 
 
-
-/* ÁREA CENTRAL DO MENU */
+/* =========================================================
+   ÁREA CENTRAL DO MENU
+========================================================= */
 
 .nav-content {
-
     display: flex;
 
     align-items: center;
+
+    justify-content: center;
 
     gap: 30px;
 
+    min-width: 0;
 }
 
 
-
-/* MENU */
+/* =========================================================
+   MENU
+========================================================= */
 
 .menu {
-
     display: flex;
 
     align-items: center;
 
-    gap: clamp(15px, 3vw, 35px);
+    gap:
+        clamp(15px, 3vw, 35px);
 
     list-style: none;
-
 }
-
-
 
 .menu li {
-
     position: relative;
-
 }
 
-
-
 .menu a {
+    display: inline-block;
 
     color: #ddd;
 
     text-decoration: none;
 
-    font-size: clamp(13px, 2vw, 15px);
+    font-size:
+        clamp(13px, 2vw, 15px);
 
-    transition: .25s;
+    transition:
+        color .25s;
 
     position: relative;
 
+    white-space: nowrap;
 }
-
-
 
 .menu a:hover {
-
     color: #fff;
-
 }
 
 
-
-/* LINHA DOS LINKS */
+/* =========================================================
+   LINHA DOS LINKS
+========================================================= */
 
 .menu a::after {
-
     content: "";
 
     position: absolute;
@@ -145,335 +160,563 @@ body {
 
     height: 2px;
 
-    background: #ff4d4d;
+    background:
+        #ff4d4d;
 
-    transition: .25s;
-
+    transition:
+        width .25s;
 }
-
-
 
 .menu a:hover::after {
-
     width: 100%;
-
 }
 
 
-
-/* DROPDOWN */
+/* =========================================================
+   DROPDOWN
+========================================================= */
 
 .dropdown-menu {
-
     position: absolute;
 
-    top: 35px;
+    top: calc(100% + 10px);
 
     left: 0;
 
-
     display: none;
-
 
     min-width: 200px;
 
-
     padding: 10px 0;
-
 
     background: #111;
 
-    border-radius: 10px;
+    border:
+        1px solid #2d2d2d;
 
+    border-radius: 10px;
 
     list-style: none;
 
+    box-shadow:
+        0 10px 25px
+        rgba(0, 0, 0, .4);
 
-    box-shadow: 0 10px 25px rgba(0,0,0,.4);
-
+    overflow: hidden;
 }
-
 
 .dropdown-menu li {
-
-    padding: 10px 20px;
-
+    padding:
+        10px 20px;
 }
 
+.dropdown-menu a {
+    width: 100%;
+}
 
 .dropdown:hover .dropdown-menu {
-
     display: block;
-
 }
 
 
-
-/* BUSCA */
+/* =========================================================
+   BUSCA
+========================================================= */
 
 .acoes {
-
     display: flex;
 
     align-items: center;
 
+    flex-shrink: 0;
 }
 
-
-
 .acoes input {
+    width:
+        clamp(160px, 20vw, 230px);
 
-    width: clamp(180px, 20vw, 230px);
+    max-width: 100%;
 
-
-    padding: 10px 14px;
-
+    padding:
+        10px 14px;
 
     border: none;
 
     outline: none;
 
-
     border-radius: 25px;
-
 
     background: #222;
 
     color: white;
 
+    font-family: inherit;
 }
-
-
 
 .acoes input::placeholder {
-
     color: #888;
-
 }
 
 
-
-/* BOTÃO MOBILE */
+/* =========================================================
+   BOTÃO MOBILE
+========================================================= */
 
 .menu-toggle {
-
     display: none;
 
+    flex-shrink: 0;
 
-    background: transparent;
+    background:
+        transparent;
 
     border: none;
-
 
     color: white;
 
     font-size: 28px;
 
+    line-height: 1;
+
     cursor: pointer;
 
+    padding: 4px;
 }
 
 
+/* =========================================================
+   TABLET
+========================================================= */
 
-/* TABLET */
-
-@media(max-width: 900px) {
-
+@media (max-width: 1000px) {
 
     .navbar {
-
-        flex-wrap: wrap;
-
+        gap: 15px;
     }
-
 
     .nav-content {
-
-        width: 100%;
-
-
-        justify-content: center;
-
-        flex-wrap: wrap;
-
+        gap: 18px;
     }
-
 
     .menu {
-
-        justify-content: center;
-
-        flex-wrap: wrap;
-
+        gap: 18px;
     }
 
-
+    .acoes input {
+        width: 170px;
+    }
 }
 
 
+/* =========================================================
+   TABLET PEQUENO
+========================================================= */
 
-/* MOBILE */
-
-@media(max-width: 650px) {
-
+@media (max-width: 800px) {
 
     .navbar {
-
-
-        flex-direction: row;
-
-        justify-content: space-between;
-
-
-        padding: 15px 20px;
-
+        flex-wrap: wrap;
     }
-
-
-
-    .menu-toggle {
-
-        display: block;
-
-    }
-
-
 
     .nav-content {
+        width: 100%;
+
+        justify-content:
+            center;
+
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        justify-content:
+            center;
+
+        flex-wrap: wrap;
+    }
+
+    .acoes {
+        justify-content:
+            center;
+    }
+}
 
 
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .navbar {
+        position: sticky;
+
+        top: 0;
+
+        flex-direction:
+            row;
+
+        flex-wrap:
+            nowrap;
+
+        justify-content:
+            space-between;
+
+        align-items:
+            center;
+
+        padding:
+            14px 18px;
+    }
+
+
+    /* -----------------------------------------------------
+       LOGO
+    ----------------------------------------------------- */
+
+    .logo {
+        min-width: 0;
+    }
+
+    .logo a {
+        font-size:
+            clamp(18px, 6vw, 22px);
+
+        overflow:
+            hidden;
+
+        text-overflow:
+            ellipsis;
+    }
+
+
+    /* -----------------------------------------------------
+       BOTÃO MENU
+    ----------------------------------------------------- */
+
+    .menu-toggle {
+        display:
+            flex;
+
+        align-items:
+            center;
+
+        justify-content:
+            center;
+    }
+
+
+    /* -----------------------------------------------------
+       MENU ABERTO
+    ----------------------------------------------------- */
+
+    .nav-content {
         position: absolute;
 
-
-        top: 70px;
+        top: 100%;
 
         left: 0;
 
-
         width: 100%;
 
+        max-height:
+            calc(100vh - 65px);
+
+        overflow-y:
+            auto;
 
         display: none;
 
+        flex-direction:
+            column;
 
-        flex-direction: column;
+        align-items:
+            center;
 
-        align-items: center;
+        justify-content:
+            flex-start;
 
+        gap: 20px;
 
-        padding: 25px;
+        padding:
+            22px 18px 25px;
 
+        background:
+            #111;
 
-        background: #111;
+        border-top:
+            1px solid #2d2d2d;
 
-
-        border-top: 1px solid #2d2d2d;
-
+        box-shadow:
+            0 15px 30px
+            rgba(0, 0, 0, .35);
     }
-
 
 
     .nav-content.active {
-
-        display: flex;
-
+        display:
+            flex;
     }
 
 
+    /* -----------------------------------------------------
+       MENU
+    ----------------------------------------------------- */
 
     .menu {
-
-        flex-direction: column;
-
-
         width: 100%;
 
+        display:
+            flex;
 
-        gap: 15px;
+        flex-direction:
+            column;
 
+        align-items:
+            center;
 
-        text-align: center;
+        gap:
+            8px;
 
+        text-align:
+            center;
     }
-
 
 
     .menu li {
-
-        width: 100%;
-
+        width:
+            100%;
     }
-
 
 
     .menu a {
+        display:
+            block;
 
-        display: block;
+        width:
+            100%;
 
-        padding: 8px;
+        padding:
+            11px 8px;
 
+        font-size:
+            15px;
     }
 
 
+    .menu a::after {
+        display:
+            none;
+    }
+
+
+    /* -----------------------------------------------------
+       DROPDOWN MOBILE
+    ----------------------------------------------------- */
 
     .dropdown-menu {
+        position:
+            static;
 
+        width:
+            100%;
 
-        position: static;
+        min-width:
+            0;
 
+        margin-top:
+            5px;
 
-        width: 100%;
+        padding:
+            5px 0;
 
+        border:
+            1px solid #292929;
 
-        margin-top: 10px;
+        background:
+            #181818;
 
+        box-shadow:
+            none;
+
+        border-radius:
+            8px;
     }
 
 
+    .dropdown-menu li {
+        padding:
+            4px 10px;
+    }
+
+
+    .dropdown-menu a {
+        padding:
+            9px;
+    }
+
+
+    /*
+       No celular o dropdown continua
+       compatível com o hover, mas também
+       não quebra o layout.
+    */
+
+    .dropdown:hover .dropdown-menu {
+        display:
+            block;
+    }
+
+
+    /* -----------------------------------------------------
+       BUSCA
+    ----------------------------------------------------- */
 
     .acoes {
+        width:
+            100%;
 
+        display:
+            flex;
 
-        width: 100%;
-
-        justify-content: center;
-
+        justify-content:
+            center;
     }
-
 
 
     .acoes input {
+        width:
+            100%;
 
+        max-width:
+            320px;
 
-        width: 100%;
-
-        max-width: 300px;
-
+        padding:
+            11px 15px;
     }
-
-
 }
 
 
+/* =========================================================
+   CELULAR PEQUENO
+========================================================= */
 
-/* CELULAR PEQUENO */
+@media (max-width: 400px) {
 
-@media(max-width: 400px) {
+    .navbar {
+        padding:
+            13px 14px;
+    }
 
 
     .logo a {
-
-        font-size: 20px;
-
+        font-size:
+            19px;
     }
 
+
+    .menu-toggle {
+        font-size:
+            25px;
+    }
+
+
+    .nav-content {
+        padding:
+            18px 12px 22px;
+
+        gap:
+            15px;
+    }
+
+
+    .menu {
+        gap:
+            5px;
+    }
+
+
+    .menu a {
+        padding:
+            10px 6px;
+
+        font-size:
+            14px;
+    }
 
 
     .acoes input {
+        max-width:
+            260px;
 
-        max-width: 250px;
+        padding:
+            10px 13px;
 
+        font-size:
+            13px;
+    }
+}
+
+
+/* =========================================================
+   CELULAR MUITO PEQUENO
+========================================================= */
+
+@media (max-width: 340px) {
+
+    .navbar {
+        padding:
+            12px 10px;
     }
 
+
+    .logo a {
+        font-size:
+            17px;
+    }
+
+
+    .menu-toggle {
+        font-size:
+            23px;
+    }
+
+
+    .nav-content {
+        padding:
+            16px 10px 20px;
+    }
+
+
+    .menu a {
+        font-size:
+            13px;
+    }
+
+
+    .acoes input {
+        max-width:
+            230px;
+
+        font-size:
+            12px;
+    }
+}
+
+
+/* =========================================================
+   DISPOSITIVOS SEM HOVER
+========================================================= */
+
+@media (hover: none) {
+
+    .menu a:hover {
+        color:
+            #ddd;
+    }
+
+    .menu a:hover::after {
+        width:
+            0;
+    }
 
 }

@@ -7,6 +7,7 @@
     width: 100%;
     min-height: 100vh;
     background: #f7f7f9;
+    overflow-x: hidden;
 }
 
 
@@ -15,41 +16,23 @@
 ========================================================= */
 
 .perfil-banner {
-
     position: relative;
-
     width: 100%;
-
     height: clamp(280px, 42vw, 520px);
-
     overflow: hidden;
-
     background: #151519;
 }
 
-
-/* imagem do banner */
-
 .perfil-banner > img {
-
     display: block;
-
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     object-position: center;
-
-    transition:
-        transform 1s ease;
+    transition: transform 1s ease;
 }
 
-
-/* zoom suave */
-
 .perfil-banner:hover > img {
-
     transform: scale(1.02);
 }
 
@@ -59,9 +42,7 @@
 ========================================================= */
 
 .banner-overlay {
-
     position: absolute;
-
     inset: 0;
 
     background:
@@ -81,23 +62,16 @@
 ========================================================= */
 
 .perfil-card {
-
     position: relative;
-
     z-index: 5;
 
     width: min(1150px, calc(100% - 40px));
-
     min-height: 300px;
 
-    margin:
-        -90px auto 70px;
-
-    padding:
-        35px 40px;
+    margin: -90px auto 70px;
+    padding: 35px 40px;
 
     display: flex;
-
     align-items: center;
 
     gap: 40px;
@@ -113,12 +87,13 @@
         0 25px 70px rgba(0, 0, 0, 0.15);
 
     backdrop-filter: blur(15px);
-
     -webkit-backdrop-filter: blur(15px);
 
     transition:
         transform 0.3s ease,
         box-shadow 0.3s ease;
+
+    box-sizing: border-box;
 }
 
 
@@ -127,9 +102,7 @@
 ========================================================= */
 
 .perfil-foto {
-
     position: relative;
-
     flex-shrink: 0;
 
     width: 190px;
@@ -149,17 +122,17 @@
 
     box-shadow:
         0 15px 40px rgba(255, 77, 109, 0.25);
+
+    box-sizing: border-box;
 }
 
 
 /* brilho externo */
 
 .perfil-foto::before {
-
     content: "";
 
     position: absolute;
-
     inset: -7px;
 
     border-radius: 50%;
@@ -169,13 +142,14 @@
         rgba(255, 77, 109, 0.20);
 
     opacity: 0.8;
+
+    pointer-events: none;
 }
 
 
 /* imagem */
 
 .perfil-foto img {
-
     display: block;
 
     width: 100%;
@@ -190,13 +164,12 @@
 
     transition:
         transform 0.45s ease;
+
+    box-sizing: border-box;
 }
 
-
 .perfil-foto:hover img {
-
-    transform:
-        scale(1.05);
+    transform: scale(1.05);
 }
 
 
@@ -205,9 +178,7 @@
 ========================================================= */
 
 .perfil-info {
-
     flex: 1;
-
     min-width: 0;
 }
 
@@ -217,7 +188,6 @@
 ========================================================= */
 
 .perfil-info h1 {
-
     margin: 0 0 15px;
 
     color: #19191f;
@@ -231,6 +201,8 @@
 
     letter-spacing:
         -1.5px;
+
+    overflow-wrap: break-word;
 }
 
 
@@ -239,11 +211,9 @@
 ========================================================= */
 
 .perfil-dados {
-
     display: flex;
 
     align-items: center;
-
     flex-wrap: wrap;
 
     gap: 10px;
@@ -251,9 +221,7 @@
     margin-bottom: 22px;
 }
 
-
 .perfil-dados span {
-
     display: inline-flex;
 
     align-items: center;
@@ -279,11 +247,12 @@
     transition:
         background 0.25s ease,
         transform 0.25s ease;
+
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
-
 .perfil-dados span:hover {
-
     background: #eeeeF2;
 
     transform:
@@ -296,7 +265,6 @@
 ========================================================= */
 
 .descricao {
-
     max-width: 750px;
 
     margin: 0 0 25px;
@@ -306,6 +274,8 @@
     font-size: 16px;
 
     line-height: 1.7;
+
+    overflow-wrap: break-word;
 }
 
 
@@ -314,7 +284,6 @@
 ========================================================= */
 
 .perfil-acoes {
-
     display: flex;
 
     align-items: center;
@@ -328,7 +297,6 @@
 /* botão principal */
 
 .perfil-acoes button {
-
     min-width: 135px;
 
     padding:
@@ -363,11 +331,11 @@
         transform 0.25s ease,
         box-shadow 0.25s ease,
         filter 0.25s ease;
+
+    box-sizing: border-box;
 }
 
-
 .perfil-acoes button:hover {
-
     transform:
         translateY(-3px);
 
@@ -385,7 +353,6 @@
 ========================================================= */
 
 .perfil-acoes .secundario {
-
     color: #33333a;
 
     background: #fff;
@@ -397,9 +364,7 @@
         0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-
 .perfil-acoes .secundario:hover {
-
     color: #ff4d6d;
 
     background:
@@ -421,49 +386,92 @@
 @media (max-width: 900px) {
 
     .perfil-banner {
-
         height:
             clamp(250px, 45vw, 400px);
     }
 
 
     .perfil-card {
-
         width:
             calc(100% - 30px);
 
-        margin-top:
-            -70px;
+        margin:
+            -70px auto 55px;
 
         padding:
             30px;
 
-        gap: 28px;
+        gap:
+            28px;
 
-        border-radius: 24px;
+        border-radius:
+            24px;
     }
 
 
     .perfil-foto {
-
         width: 155px;
         height: 155px;
     }
 
 
     .perfil-info h1 {
-
         font-size:
             clamp(28px, 5vw, 40px);
     }
 
 
     .descricao {
-
         font-size: 15px;
 
         line-height: 1.6;
     }
+
+
+    .perfil-dados {
+        gap: 8px;
+    }
+
+
+    .perfil-acoes {
+        gap: 10px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET PEQUENO
+========================================================= */
+
+@media (max-width: 750px) {
+
+    .perfil-card {
+        align-items: flex-start;
+    }
+
+
+    .perfil-foto {
+        width: 130px;
+        height: 130px;
+    }
+
+
+    .perfil-info h1 {
+        font-size: 32px;
+    }
+
+
+    .perfil-dados span {
+        font-size: 13px;
+        padding: 7px 11px;
+    }
+
+
+    .descricao {
+        font-size: 14px;
+    }
+
 }
 
 
@@ -474,13 +482,11 @@
 @media (max-width: 650px) {
 
     .perfil-banner {
-
         height: 280px;
     }
 
 
     .perfil-card {
-
         width:
             calc(100% - 24px);
 
@@ -490,20 +496,28 @@
         padding:
             25px 20px;
 
-        flex-direction: column;
+        display: flex;
 
-        text-align: center;
+        flex-direction:
+            column;
 
-        gap: 20px;
+        align-items:
+            center;
 
-        border-radius: 22px;
+        text-align:
+            center;
+
+        gap:
+            20px;
+
+        border-radius:
+            22px;
     }
 
 
     /* foto */
 
     .perfil-foto {
-
         width: 135px;
         height: 135px;
     }
@@ -512,16 +526,16 @@
     /* informações */
 
     .perfil-info {
-
         width: 100%;
     }
 
 
     .perfil-info h1 {
+        margin-bottom:
+            14px;
 
-        margin-bottom: 14px;
-
-        font-size: 32px;
+        font-size:
+            32px;
 
         letter-spacing:
             -0.8px;
@@ -531,57 +545,74 @@
     /* dados */
 
     .perfil-dados {
+        justify-content:
+            center;
 
-        justify-content: center;
+        gap:
+            7px;
 
-        gap: 7px;
-
-        margin-bottom: 18px;
+        margin-bottom:
+            18px;
     }
 
 
     .perfil-dados span {
-
         padding:
             7px 11px;
 
-        font-size: 13px;
+        font-size:
+            13px;
     }
 
 
     /* descrição */
 
     .descricao {
+        max-width:
+            100%;
 
-        margin-bottom: 22px;
+        margin-bottom:
+            22px;
 
-        font-size: 14px;
+        font-size:
+            14px;
 
-        line-height: 1.65;
+        line-height:
+            1.65;
     }
 
 
     /* botões */
 
     .perfil-acoes {
+        width:
+            100%;
 
-        width: 100%;
+        flex-direction:
+            column;
 
-        flex-direction: column;
+        align-items:
+            center;
 
-        gap: 10px;
+        gap:
+            10px;
     }
 
 
     .perfil-acoes button {
+        width:
+            100%;
 
-        width: 100%;
+        max-width:
+            320px;
 
-        max-width: 320px;
+        min-width:
+            0;
 
         padding:
             12px 20px;
     }
+
 }
 
 
@@ -592,42 +623,53 @@
 @media (max-width: 400px) {
 
     .perfil-banner {
-
-        height: 240px;
+        height:
+            240px;
     }
 
 
     .perfil-card {
-
         width:
             calc(100% - 18px);
 
-        margin-top:
-            -50px;
+        margin:
+            -50px auto 35px;
 
         padding:
             22px 15px;
 
-        border-radius: 19px;
+        border-radius:
+            19px;
     }
 
 
     .perfil-foto {
+        width:
+            115px;
 
-        width: 115px;
-        height: 115px;
+        height:
+            115px;
     }
 
 
     .perfil-info h1 {
+        font-size:
+            28px;
 
-        font-size: 28px;
+        letter-spacing:
+            -0.5px;
+    }
+
+
+    .perfil-dados {
+        gap:
+            6px;
     }
 
 
     .perfil-dados span {
-
-        font-size: 12px;
+        font-size:
+            12px;
 
         padding:
             6px 9px;
@@ -635,7 +677,117 @@
 
 
     .descricao {
+        font-size:
+            13px;
 
-        font-size: 13px;
+        line-height:
+            1.6;
     }
+
+
+    .perfil-acoes button {
+        max-width:
+            100%;
+
+        padding:
+            11px 18px;
+
+        font-size:
+            13px;
+    }
+
+}
+
+
+/* =========================================================
+   CELULAR MUITO PEQUENO
+========================================================= */
+
+@media (max-width: 340px) {
+
+    .perfil-banner {
+        height:
+            220px;
+    }
+
+
+    .perfil-card {
+        width:
+            calc(100% - 14px);
+
+        margin-top:
+            -40px;
+
+        padding:
+            20px 12px;
+
+        border-radius:
+            17px;
+    }
+
+
+    .perfil-foto {
+        width:
+            105px;
+
+        height:
+            105px;
+    }
+
+
+    .perfil-info h1 {
+        font-size:
+            25px;
+    }
+
+
+    .perfil-dados span {
+        font-size:
+            11px;
+
+        padding:
+            5px 8px;
+    }
+
+
+    .descricao {
+        font-size:
+            12.5px;
+    }
+
+}
+
+
+/* =========================================================
+   DISPOSITIVOS SEM HOVER
+========================================================= */
+
+@media (hover: none) {
+
+    .perfil-banner:hover > img {
+        transform:
+            none;
+    }
+
+
+    .perfil-foto:hover img {
+        transform:
+            none;
+    }
+
+
+    .perfil-dados span:hover {
+        transform:
+            none;
+    }
+
+
+    .perfil-acoes button:hover {
+        transform:
+            none;
+
+        filter:
+            none;
+    }
+
 }
